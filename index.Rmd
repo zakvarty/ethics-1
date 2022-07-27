@@ -1,19 +1,21 @@
 --- 
-title: "A Minimal Book Example"
-author: "John Doe"
+title: "MLDS Ethics - Part 1"
+author: "Zak Varty"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
-# url: your book url like https://bookdown.org/yihui/bookdown
-# cover-image: path to the social sharing image like images/cover.jpg
+url: https://ethics-1.zakvarty.com/
+cover-image: images/ethics-1-logo.jpg
 description: |
-  This is a minimal example of using the bookdown package to write a book.
-  The HTML output format for this example is bookdown::bs4_book,
-  set in the _output.yml file.
+  Course notes for MLDS Ethics Part 1.
 biblio-style: apalike
 csl: chicago-fullnote-bibliography.csl
 ---
+
+::: small_right
+<img src="images/ethics-1-logo.jpg" alt="Logo"/>
+:::
 
 # About
 
