@@ -1,0 +1,31 @@
+
+# Build Information {-}
+
+This book was written in [bookdown](http://bookdown.org/) inside [RStudio](http://www.rstudio.com/ide/). The website [ethics-1.zakvarty.com](https://ethics-1.zakvarty.com) is hosted with [Netlify](https://www.netlify.com). The complete source is available from [GitHub](https://github.com/zakvarty/ethics-1).
+
+The [course logo](assets/ethics-1-logo.png) was designed by [Zak Varty](https://www.zakvarty.com/).
+
+This version of the book was built with:
+
+```{r message = FALSE, warning = FALSE, echo = FALSE}
+session <- devtools::session_info()
+session$platform
+```
+
+Along with these packages:
+
+```{r message = FALSE, warning = FALSE, echo = FALSE}
+library("dplyr")
+
+session$packages %>% 
+  select(package, loadedversion, date, source) %>% 
+  #DT::datatable(rownames = FALSE,
+  #              class = 'cell-border stripe',
+  #              filter = list(position = 'top'),
+   #             options = list(pageLength = nrow(session$packages), 
+  #                         autoWidth = TRUE,
+  #                         bInfo = FALSE,
+  #                         paging = FALSE))
+  knitr::kable(row.names = FALSE, col.names = c("Package", "Version", "Date", "Source"))
+```
+

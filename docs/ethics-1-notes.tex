@@ -170,27 +170,6 @@ You can render the HTML version of this example book without changing anything:
   Click on \textbf{Build Book}, then select your output format, or select ``All formats'' if you'd like to use multiple formats from the same book source files.
 \end{enumerate}
 
-Or build the book from the R console:
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\NormalTok{bookdown}\SpecialCharTok{::}\FunctionTok{render\_book}\NormalTok{()}
-\end{Highlighting}
-\end{Shaded}
-
-To render this example to PDF as a \texttt{bookdown::pdf\_book}, you'll need to install XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): \url{https://yihui.org/tinytex/}.
-
-\hypertarget{preview-book}{%
-\section{Preview book}\label{preview-book}}
-
-As you work, you may start a local server to live preview this HTML book. This preview will update as you edit the book when you save individual .Rmd files. You can start the server in a work session by using the RStudio add-in ``Preview book'', or from the R console:
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\NormalTok{bookdown}\SpecialCharTok{::}\FunctionTok{serve\_book}\NormalTok{()}
-\end{Highlighting}
-\end{Shaded}
-
 \hypertarget{hello-bookdown}{%
 \chapter{Hello bookdown}\label{hello-bookdown}}
 
@@ -413,6 +392,115 @@ Or use:
 \end{Highlighting}
 \end{Shaded}
 
+\hypertarget{build-information}{%
+\chapter*{Build Information}\label{build-information}}
+\addcontentsline{toc}{chapter}{Build Information}
+
+This book was written in \href{http://bookdown.org/}{bookdown} inside \href{http://www.rstudio.com/ide/}{RStudio}. The website \href{https://ethics-1.zakvarty.com}{ethics-1.zakvarty.com} is hosted with \href{https://www.netlify.com}{Netlify}. The complete source is available from \href{https://github.com/zakvarty/ethics-1}{GitHub}.
+
+The \href{assets/ethics-1-logo.png}{course logo} was designed by \href{https://www.zakvarty.com/}{Zak Varty}.
+
+This version of the book was built with:
+
+\begin{verbatim}
+#>  setting  value
+#>  version  R version 4.2.0 (2022-04-22)
+#>  os       macOS Big Sur/Monterey 10.16
+#>  system   x86_64, darwin17.0
+#>  ui       X11
+#>  language (EN)
+#>  collate  en_GB.UTF-8
+#>  ctype    en_GB.UTF-8
+#>  tz       Europe/London
+#>  date     2022-07-27
+#>  pandoc   2.18 @ /Applications/RStudio.app/Contents/MacOS/quarto/bin/tools/ (via rmarkdown)
+\end{verbatim}
+
+Along with these packages:
+
+\begin{tabular}{l|l|l|l}
+\hline
+Package & Version & Date & Source\\
+\hline
+bookdown & 0.26 & 2022-04-15 & CRAN (R 4.2.0)\\
+\hline
+brio & 1.1.3 & 2021-11-30 & CRAN (R 4.2.0)\\
+\hline
+cachem & 1.0.6 & 2021-08-19 & CRAN (R 4.2.0)\\
+\hline
+callr & 3.7.0 & 2021-04-20 & CRAN (R 4.2.0)\\
+\hline
+cli & 3.3.0 & 2022-04-25 & CRAN (R 4.2.0)\\
+\hline
+crayon & 1.5.1 & 2022-03-26 & CRAN (R 4.2.0)\\
+\hline
+desc & 1.4.1 & 2022-03-06 & CRAN (R 4.2.0)\\
+\hline
+devtools & 2.4.3 & 2021-11-30 & CRAN (R 4.2.0)\\
+\hline
+digest & 0.6.29 & 2021-12-01 & CRAN (R 4.2.0)\\
+\hline
+ellipsis & 0.3.2 & 2021-04-29 & CRAN (R 4.2.0)\\
+\hline
+evaluate & 0.15 & 2022-02-18 & CRAN (R 4.2.0)\\
+\hline
+fastmap & 1.1.0 & 2021-01-25 & CRAN (R 4.2.0)\\
+\hline
+fs & 1.5.2 & 2021-12-08 & CRAN (R 4.2.0)\\
+\hline
+glue & 1.6.2 & 2022-02-24 & CRAN (R 4.2.0)\\
+\hline
+htmltools & 0.5.2 & 2021-08-25 & CRAN (R 4.2.0)\\
+\hline
+knitr & 1.39 & 2022-04-26 & CRAN (R 4.2.0)\\
+\hline
+lifecycle & 1.0.1 & 2021-09-24 & CRAN (R 4.2.0)\\
+\hline
+magrittr & 2.0.3 & 2022-03-30 & CRAN (R 4.2.0)\\
+\hline
+memoise & 2.0.1 & 2021-11-26 & CRAN (R 4.2.0)\\
+\hline
+pkgbuild & 1.3.1 & 2021-12-20 & CRAN (R 4.2.0)\\
+\hline
+pkgload & 1.2.4 & 2021-11-30 & CRAN (R 4.2.0)\\
+\hline
+prettyunits & 1.1.1 & 2020-01-24 & CRAN (R 4.2.0)\\
+\hline
+processx & 3.5.3 & 2022-03-25 & CRAN (R 4.2.0)\\
+\hline
+ps & 1.7.0 & 2022-04-23 & CRAN (R 4.2.0)\\
+\hline
+purrr & 0.3.4 & 2020-04-17 & CRAN (R 4.2.0)\\
+\hline
+R6 & 2.5.1 & 2021-08-19 & CRAN (R 4.2.0)\\
+\hline
+remotes & 2.4.2 & 2021-11-30 & CRAN (R 4.2.0)\\
+\hline
+rlang & 1.0.2 & 2022-03-04 & CRAN (R 4.2.0)\\
+\hline
+rmarkdown & 2.14 & 2022-04-25 & CRAN (R 4.2.0)\\
+\hline
+rprojroot & 2.0.3 & 2022-04-02 & CRAN (R 4.2.0)\\
+\hline
+rstudioapi & 0.13 & 2020-11-12 & CRAN (R 4.2.0)\\
+\hline
+sessioninfo & 1.2.2 & 2021-12-06 & CRAN (R 4.2.0)\\
+\hline
+stringi & 1.7.6 & 2021-11-29 & CRAN (R 4.2.0)\\
+\hline
+stringr & 1.4.0 & 2019-02-10 & CRAN (R 4.2.0)\\
+\hline
+testthat & 3.1.4 & 2022-04-26 & CRAN (R 4.2.0)\\
+\hline
+usethis & 2.1.6 & 2022-05-25 & CRAN (R 4.2.0)\\
+\hline
+withr & 2.5.0 & 2022-03-03 & CRAN (R 4.2.0)\\
+\hline
+xfun & 0.31 & 2022-05-10 & CRAN (R 4.2.0)\\
+\hline
+yaml & 2.3.5 & 2022-02-21 & CRAN (R 4.2.0)\\
+\hline
+\end{tabular}
 
   \bibliography{book.bib,packages.bib}
 
