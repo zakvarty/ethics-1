@@ -13,11 +13,13 @@ biblio-style: apalike
 csl: chicago-fullnote-bibliography.csl
 ---
 
+
+
+# About
+
 ::: small_right
 <img src="images/ethics-1-logo.jpg" alt="Logo"/>
 :::
-
-# About
 
 This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports; for example, a math equation $a^2 + b^2 = c^2$.
 
