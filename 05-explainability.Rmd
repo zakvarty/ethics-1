@@ -1,4 +1,4 @@
-# Blocks
+# Explainability and Interpretability {#ch-explainability}
 
 ## Equations
 

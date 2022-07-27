@@ -1,4 +1,4 @@
-# Footnotes and citations 
+# Alignment and Control {#ch-alignment-and-control} 
 
 ## Footnotes
 

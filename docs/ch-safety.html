@@ -4,18 +4,18 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Chapter 6 Blocks | MLDS Ethics - Part 1</title>
+<title>Chapter 6 Safety, Security and Accountability | MLDS Ethics - Part 1</title>
 <meta name="author" content="Zak Varty">
-<meta name="description" content="6.1 Equations Here is an equation. \[\begin{equation}  f\left(k\right) = \binom{n}{k} p^k\left(1-p\right)^{n-k}  \tag{6.1} \end{equation}\] You may refer to using \@ref(eq:binom), like see...">
+<meta name="description" content="6.1 Publishing HTML books can be published online, see: https://bookdown.org/yihui/bookdown/publishing.html  6.2 404 pages By default, users will be directed to a 404 page if they try to access a...">
 <meta name="generator" content="bookdown 0.26 with bs4_book()">
-<meta property="og:title" content="Chapter 6 Blocks | MLDS Ethics - Part 1">
+<meta property="og:title" content="Chapter 6 Safety, Security and Accountability | MLDS Ethics - Part 1">
 <meta property="og:type" content="book">
-<meta property="og:url" content="https://ethics-1.zakvarty.com/blocks.html">
+<meta property="og:url" content="https://ethics-1.zakvarty.com/ch-safety.html">
 <meta property="og:image" content="https://ethics-1.zakvarty.com/assets/ethics-1-logo.jpg">
-<meta property="og:description" content="6.1 Equations Here is an equation. \[\begin{equation}  f\left(k\right) = \binom{n}{k} p^k\left(1-p\right)^{n-k}  \tag{6.1} \end{equation}\] You may refer to using \@ref(eq:binom), like see...">
+<meta property="og:description" content="6.1 Publishing HTML books can be published online, see: https://bookdown.org/yihui/bookdown/publishing.html  6.2 404 pages By default, users will be directed to a 404 page if they try to access a...">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Chapter 6 Blocks | MLDS Ethics - Part 1">
-<meta name="twitter:description" content="6.1 Equations Here is an equation. \[\begin{equation}  f\left(k\right) = \binom{n}{k} p^k\left(1-p\right)^{n-k}  \tag{6.1} \end{equation}\] You may refer to using \@ref(eq:binom), like see...">
+<meta name="twitter:title" content="Chapter 6 Safety, Security and Accountability | MLDS Ethics - Part 1">
+<meta name="twitter:description" content="6.1 Publishing HTML books can be published online, see: https://bookdown.org/yihui/bookdown/publishing.html  6.2 404 pages By default, users will be directed to a 404 page if they try to access a...">
 <meta name="twitter:image" content="https://ethics-1.zakvarty.com/assets/ethics-1-logo.jpg">
 <!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
@@ -68,14 +68,14 @@
 
       <nav aria-label="Table of contents"><h2>Table of contents</h2>
         <ul class="book-toc list-unstyled">
-<li><a class="" href="index.html"><span class="header-section-number">1</span> About</a></li>
+<li><a class="" href="index.html">Welcome!</a></li>
 <li><a class="" href="course-overview.html">Course Overview</a></li>
-<li><a class="" href="ch-foundations.html"><span class="header-section-number">2</span> Foundations of Ethical AI</a></li>
-<li><a class="" href="ch-privacy-and-autonomy.html"><span class="header-section-number">3</span> Privacy and Autonomy</a></li>
-<li><a class="" href="parts.html"><span class="header-section-number">4</span> Parts</a></li>
-<li><a class="" href="footnotes-and-citations.html"><span class="header-section-number">5</span> Footnotes and citations</a></li>
-<li><a class="active" href="blocks.html"><span class="header-section-number">6</span> Blocks</a></li>
-<li><a class="" href="sharing-your-book.html"><span class="header-section-number">7</span> Sharing your book</a></li>
+<li><a class="" href="ch-foundations.html"><span class="header-section-number">1</span> Foundations of Ethical AI</a></li>
+<li><a class="" href="ch-privacy-and-autonomy.html"><span class="header-section-number">2</span> Privacy and Autonomy</a></li>
+<li><a class="" href="ch-fairness.html"><span class="header-section-number">3</span> Fairness</a></li>
+<li><a class="" href="ch-alignment-and-control.html"><span class="header-section-number">4</span> Alignment and Control</a></li>
+<li><a class="" href="ch-explainability.html"><span class="header-section-number">5</span> Explainability and Interpretability</a></li>
+<li><a class="active" href="ch-safety.html"><span class="header-section-number">6</span> Safety, Security and Accountability</a></li>
 <li><a class="" href="license.html">License</a></li>
 <li><a class="" href="build-information.html">Build Information</a></li>
 <li><a class="" href="references.html">References</a></li>
@@ -86,71 +86,52 @@
         </div>
       </nav>
 </div>
-  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="blocks" class="section level1" number="6">
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="ch-safety" class="section level1" number="6">
 <h1>
-<span class="header-section-number">6</span> Blocks<a class="anchor" aria-label="anchor" href="#blocks"><i class="fas fa-link"></i></a>
+<span class="header-section-number">6</span> Safety, Security and Accountability<a class="anchor" aria-label="anchor" href="#ch-safety"><i class="fas fa-link"></i></a>
 </h1>
-<div id="equations" class="section level2" number="6.1">
+<div id="publishing" class="section level2" number="6.1">
 <h2>
-<span class="header-section-number">6.1</span> Equations<a class="anchor" aria-label="anchor" href="#equations"><i class="fas fa-link"></i></a>
+<span class="header-section-number">6.1</span> Publishing<a class="anchor" aria-label="anchor" href="#publishing"><i class="fas fa-link"></i></a>
 </h2>
-<p>Here is an equation.</p>
-<p><span class="math display" id="eq:binom">\[\begin{equation}
-  f\left(k\right) = \binom{n}{k} p^k\left(1-p\right)^{n-k}
-  \tag{6.1}
-\end{equation}\]</span></p>
-<p>You may refer to using <code>\@ref(eq:binom)</code>, like see Equation <a href="blocks.html#eq:binom">(6.1)</a>.</p>
+<p>HTML books can be published online, see: <a href="https://bookdown.org/yihui/bookdown/publishing.html" class="uri">https://bookdown.org/yihui/bookdown/publishing.html</a></p>
 </div>
-<div id="theorems-and-proofs" class="section level2" number="6.2">
+<div id="pages" class="section level2" number="6.2">
 <h2>
-<span class="header-section-number">6.2</span> Theorems and proofs<a class="anchor" aria-label="anchor" href="#theorems-and-proofs"><i class="fas fa-link"></i></a>
+<span class="header-section-number">6.2</span> 404 pages<a class="anchor" aria-label="anchor" href="#pages"><i class="fas fa-link"></i></a>
 </h2>
-<div class="theorem">
-<p><span id="thm:tri" class="theorem"><strong>Theorem 6.1  </strong></span>For a right triangle, if <span class="math inline">\(c\)</span> denotes the <em>length</em> of the hypotenuse
-and <span class="math inline">\(a\)</span> and <span class="math inline">\(b\)</span> denote the lengths of the <strong>other</strong> two sides, we have
-<span class="math display">\[a^2 + b^2 = c^2\]</span></p>
+<p>By default, users will be directed to a 404 page if they try to access a webpage that cannot be found. If you’d like to customize your 404 page instead of using the default, you may add either a <code>_404.Rmd</code> or <code>_404.md</code> file to your project root and use code and/or Markdown syntax.</p>
 </div>
-<p>Labeled theorems can be referenced in text using <code>\@ref(thm:tri)</code>, for example, check out this smart theorem <a href="blocks.html#thm:tri">6.1</a>.</p>
-<p>Read more here <a href="https://bookdown.org/yihui/bookdown/markdown-extensions-by-bookdown.html" class="uri">https://bookdown.org/yihui/bookdown/markdown-extensions-by-bookdown.html</a>.</p>
-</div>
-<div id="callout-blocks" class="section level2" number="6.3">
+<div id="metadata-for-sharing" class="section level2" number="6.3">
 <h2>
-<span class="header-section-number">6.3</span> Callout blocks<a class="anchor" aria-label="anchor" href="#callout-blocks"><i class="fas fa-link"></i></a>
+<span class="header-section-number">6.3</span> Metadata for sharing<a class="anchor" aria-label="anchor" href="#metadata-for-sharing"><i class="fas fa-link"></i></a>
 </h2>
-<p>The <code>bs4_book</code> theme also includes special callout blocks, like this <code>.rmdnote</code>.</p>
-<div class="rmdnote">
-<p>You can use <strong>markdown</strong> inside a block.</p>
-<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/utils/head.html">head</a></span><span class="op">(</span><span class="va">beaver1</span>, n <span class="op">=</span> <span class="fl">5</span><span class="op">)</span>
-<span class="co">#&gt;   day time  temp activ</span>
-<span class="co">#&gt; 1 346  840 36.33     0</span>
-<span class="co">#&gt; 2 346  850 36.34     0</span>
-<span class="co">#&gt; 3 346  900 36.35     0</span>
-<span class="co">#&gt; 4 346  910 36.42     0</span>
-<span class="co">#&gt; 5 346  920 36.55     0</span></code></pre></div>
-</div>
-<p>It is up to the user to define the appearance of these blocks for LaTeX output.</p>
-<p>You may also use: <code>.rmdcaution</code>, <code>.rmdimportant</code>, <code>.rmdtip</code>, or <code>.rmdwarning</code> as the block name.</p>
-<p>The R Markdown Cookbook provides more help on how to use custom blocks to design your own callouts: <a href="https://bookdown.org/yihui/rmarkdown-cookbook/custom-blocks.html" class="uri">https://bookdown.org/yihui/rmarkdown-cookbook/custom-blocks.html</a></p>
+<p>Bookdown HTML books will provide HTML metadata for social sharing on platforms like Twitter, Facebook, and LinkedIn, using information you provide in the <code>index.Rmd</code> YAML. To setup, set the <code>url</code> for your book and the path to your <code>cover-image</code> file. Your book’s <code>title</code> and <code>description</code> are also used.</p>
+<p>This <code>bs4_book</code> provides enhanced metadata for social sharing, so that each chapter shared will have a unique description, auto-generated based on the content.</p>
+<p>Specify your book’s source repository on GitHub as the <code>repo</code> in the <code>_output.yml</code> file, which allows users to view each chapter’s source file or suggest an edit. Read more about the features of this output format here:</p>
+<p><a href="https://pkgs.rstudio.com/bookdown/reference/bs4_book.html" class="uri">https://pkgs.rstudio.com/bookdown/reference/bs4_book.html</a></p>
+<p>Or use:</p>
+<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="op">?</span><span class="fu">bookdown</span><span class="fu">::</span><span class="va"><a href="https://pkgs.rstudio.com/bookdown/reference/bs4_book.html">bs4_book</a></span></code></pre></div>
 
 </div>
 </div>
   <div class="chapter-nav">
-<div class="prev"><a href="footnotes-and-citations.html"><span class="header-section-number">5</span> Footnotes and citations</a></div>
-<div class="next"><a href="sharing-your-book.html"><span class="header-section-number">7</span> Sharing your book</a></div>
+<div class="prev"><a href="ch-explainability.html"><span class="header-section-number">5</span> Explainability and Interpretability</a></div>
+<div class="next"><a href="license.html">License</a></div>
 </div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
     <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
       <ul class="nav navbar-nav">
-<li><a class="nav-link" href="#blocks"><span class="header-section-number">6</span> Blocks</a></li>
-<li><a class="nav-link" href="#equations"><span class="header-section-number">6.1</span> Equations</a></li>
-<li><a class="nav-link" href="#theorems-and-proofs"><span class="header-section-number">6.2</span> Theorems and proofs</a></li>
-<li><a class="nav-link" href="#callout-blocks"><span class="header-section-number">6.3</span> Callout blocks</a></li>
+<li><a class="nav-link" href="#ch-safety"><span class="header-section-number">6</span> Safety, Security and Accountability</a></li>
+<li><a class="nav-link" href="#publishing"><span class="header-section-number">6.1</span> Publishing</a></li>
+<li><a class="nav-link" href="#pages"><span class="header-section-number">6.2</span> 404 pages</a></li>
+<li><a class="nav-link" href="#metadata-for-sharing"><span class="header-section-number">6.3</span> Metadata for sharing</a></li>
 </ul>
 
       <div class="book-extra">
         <ul class="list-unstyled">
-<li><a id="book-source" href="https://github.com/zakvarty/ethics-1/blob/master/05-blocks.Rmd">View source <i class="fab fa-github"></i></a></li>
-          <li><a id="book-edit" href="https://github.com/zakvarty/ethics-1/edit/master/05-blocks.Rmd">Edit this page <i class="fab fa-github"></i></a></li>
+<li><a id="book-source" href="https://github.com/zakvarty/ethics-1/blob/master/06-safety.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/zakvarty/ethics-1/edit/master/06-safety.Rmd">Edit this page <i class="fab fa-github"></i></a></li>
         </ul>
 </div>
     </nav>

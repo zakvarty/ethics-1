@@ -143,35 +143,112 @@
 \setcounter{tocdepth}{1}
 \tableofcontents
 }
-\hypertarget{about}{%
-\chapter{About}\label{about}}
+\hypertarget{welcome}{%
+\chapter*{Welcome!}\label{welcome}}
+\addcontentsline{toc}{chapter}{Welcome!}
 
-This is a \emph{sample} book written in \textbf{Markdown}. You can use anything that Pandoc's Markdown supports; for example, a math equation \(a^2 + b^2 = c^2\).
+Data-driven decision making is now pervasive and impacts us all. Your data is used by others to make decisions about who you are, how you will behave, and what options should be made available to you. Predictive models are used to decide anything from the promotion that is offered to you by a retailer through to whether your loan application is granted by a bank.
 
-\hypertarget{usage}{%
-\section{Usage}\label{usage}}
+The ways in which these predictive models can fail \emph{mathematically} form a core part of the training for an aspiring statistician, data scientist or machine learning practitioner. In contrast, the potential for \emph{ethical} failures in these same models is rarely covered in-depth during as part of this initial training. As a result, these ethical modes of failure are often not considered until those predictive models have been put into production and are actively causing harm.
 
-Each \textbf{bookdown} chapter is an .Rmd file, and each .Rmd file can contain one (and only one) chapter. A chapter \emph{must} start with a first-level heading: \texttt{\#\ A\ good\ chapter}, and can contain one (and only one) first-level heading.
+To prevent this harm, the ethical impacts of using data to make decisions must be made core to the curriculum of both statistics and data science. This course aims to address that gap.
 
-Use second-level and higher headings within chapters like: \texttt{\#\#\ A\ short\ section} or \texttt{\#\#\#\ An\ even\ shorter\ section}.
+The course takes a practical and technical approach to identifying these ethical issues. It has a strong mathematical focus and will not not require the authoring of extended essays or moral treaties. Throughout the course, we give actionable ways in which these topics may be integrated into a data science workflow at a range of levels.
 
-The \texttt{index.Rmd} file is required, and is also your first book chapter. It will be the homepage when you render the book.
+\hypertarget{module-description}{%
+\section*{Module Description}\label{module-description}}
+\addcontentsline{toc}{section}{Module Description}
 
-\hypertarget{render-book}{%
-\section{Render book}\label{render-book}}
+This module will investigate the ethical implications of the new capabilities offered by Data Science and Artificial Intelligence.
 
-You can render the HTML version of this example book without changing anything:
+Part 1 will begin by discussing the ethical use of data itself - the raw materials of data science pipelines. It will then discuss sets of principles that tech leaders and international bodies are adopting to promote ethical use of data science and artificial intelligence algorithms, including a discussion of real-world examples of failings and adverse outcomes.
+
+Parts 2 and 3 will then revisit the issues explored in Part 1 in greater technical detail. These parts will introduce data science methodologies that provide novel solutions to ethical problems of old such as explainability, prejudice and bias.
+
+\hypertarget{learning-objectives}{%
+\section*{Learning Objectives}\label{learning-objectives}}
+\addcontentsline{toc}{section}{Learning Objectives}
+
+On successful completion of this module, you should be able to:
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
+\tightlist
 \item
-  Find the \textbf{Build} pane in the RStudio IDE, and
+  Recognise and accept responsibility for the societal impact of data science and machine learning technologies;
 \item
-  Click on \textbf{Build Book}, then select your output format, or select ``All formats'' if you'd like to use multiple formats from the same book source files.
+  Participate in the broader debate about the issues surrounding the use of data science and machine learning for prediction, decision making and knowledge generation tasks;
+\item
+  Identify common ethical pitfalls of data science and ML algorithms via a mental ``check-list'' and evaluate the degree to which a given algorithm is likely to conform with ethical best practices.
+\item
+  Formally test for common ethical pitfalls of data science and ML algorithms.
+\item
+  Implement mitigation measures against the ethical risks posed by the use of data science and ML algorithms.
+\item
+  Construct well-founded and evidence-based arguments with which to positively influence the actions of stakeholders and decision-makers;
+\item
+  Use a systems perspective to holistically appraise data science projects on their ethical and societal impacts.
 \end{enumerate}
 
-\hypertarget{hello-bookdown}{%
-\chapter{Hello bookdown}\label{hello-bookdown}}
+\hypertarget{contributors}{%
+\section*{Contributors}\label{contributors}}
+\addcontentsline{toc}{section}{Contributors}
+
+These notes are structured around a course delivered as part of the the Master's degree in Machine Learning and Data Science at Imperial College London, which was developed by Christoforos Anagnostopoulos and Zak Varty.
+
+These course notes were written by Zak Varty and are still under active development. If you spot any issues or would like to contribute to their development, you may \href{https://github.com/zakvarty/ethics-1/issues}{raise an issue} or \href{https://github.com/zakvarty/ethics-1/pulls}{submit a pull request} to the associated github repository.
+
+\hypertarget{course-overview}{%
+\chapter*{Course Overview}\label{course-overview}}
+\addcontentsline{toc}{chapter}{Course Overview}
+
+This section is only relevant to students taking the MLDS course in the academic year 2022-23.
+
+\hypertarget{assessments}{%
+\section{Assessments}\label{assessments}}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1250}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.5000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1250}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1250}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1250}}@{}}
+\caption{Assessment schedule for Ethics Part 1 (2022 Cohort)}\tabularnewline
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+Assessment Type
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Description
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\% of Ethics Module
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Release Date
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Due Date
+\end{minipage} \\
+\midrule()
+\endfirsthead
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+Assessment Type
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Description
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\% of Ethics Module
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Release Date
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Due Date
+\end{minipage} \\
+\midrule()
+\endhead
+Reading Summaries & Weekly summary of one assigned reading and peer-feedback for two other students. & 5 & TBC & TBC \\
+Coursework & Individual short report. This will involve a mixture of questions and guided case-studies to assess technical understanding of the course content alongside its implementation and limitations when used in context. & 15 & TBC & TBC \\
+\bottomrule()
+\end{longtable}
+
+\hypertarget{ch-foundations}{%
+\chapter{Foundations of Ethical AI}\label{ch-foundations}}
 
 All chapters start with a first-level heading followed by your chapter title, like the line above. There should be only one first-level heading (\texttt{\#}) per .Rmd file.
 
@@ -186,38 +263,10 @@ All chapter sections start with a second-level (\texttt{\#\#}) or higher heading
 
 Chapters and sections are numbered by default. To un-number a heading, add a \texttt{\{.unnumbered\}} or the shorter \texttt{\{-\}} at the end of the heading, like in this section.
 
-\hypertarget{cross}{%
-\chapter{Cross-references}\label{cross}}
+\hypertarget{ch-privacy-and-autonomy}{%
+\chapter{Privacy and Autonomy}\label{ch-privacy-and-autonomy}}
 
 Cross-references make it easier for your readers to find and link to elements in your book.
-
-\hypertarget{chapters-and-sub-chapters}{%
-\section{Chapters and sub-chapters}\label{chapters-and-sub-chapters}}
-
-There are two steps to cross-reference any heading:
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  Label the heading: \texttt{\#\ Hello\ world\ \{\#nice-label\}}.
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Leave the label off if you like the automated heading generated based on your heading title: for example, \texttt{\#\ Hello\ world} = \texttt{\#\ Hello\ world\ \{\#hello-world\}}.
-  \item
-    To label an un-numbered heading, use: \texttt{\#\ Hello\ world\ \{-\#nice-label\}} or \texttt{\{\#\ Hello\ world\ .unnumbered\}}.
-  \end{itemize}
-\item
-  Next, reference the labeled heading anywhere in the text using \texttt{\textbackslash{}@ref(nice-label)}; for example, please see Chapter \ref{cross}.
-
-  \begin{itemize}
-  \tightlist
-  \item
-    If you prefer text as the link instead of a numbered reference use: \protect\hyperlink{cross}{any text you want can go here}.
-  \end{itemize}
-\end{enumerate}
 
 \hypertarget{captioned-figures-and-tables}{%
 \section{Captioned figures and tables}\label{captioned-figures-and-tables}}
@@ -235,7 +284,7 @@ See Figure \ref{fig:nice-fig}.
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{02-cross-refs_files/figure-latex/nice-fig-1} 
+{\centering \includegraphics[width=0.8\linewidth]{02-privacy-and-autonomy_files/figure-latex/nice-fig-1} 
 
 }
 
@@ -276,8 +325,8 @@ temperature & pressure\\
 \end{tabular}
 \end{table}
 
-\hypertarget{parts}{%
-\chapter{Parts}\label{parts}}
+\hypertarget{ch-fairness}{%
+\chapter{Fairness}\label{ch-fairness}}
 
 You can add parts to organize one or more book chapters together. Parts can be inserted at the top of an .Rmd file, before the first-level chapter heading in that same file.
 
@@ -287,8 +336,8 @@ Add an unnumbered part: \texttt{\#\ (PART\textbackslash{}*)\ Act\ one\ \{-\}} (f
 
 Add an appendix as a special kind of un-numbered part: \texttt{\#\ (APPENDIX)\ Other\ stuff\ \{-\}} (followed by \texttt{\#\ A\ chapter}). Chapters in an appendix are prepended with letters instead of numbers.
 
-\hypertarget{footnotes-and-citations}{%
-\chapter{Footnotes and citations}\label{footnotes-and-citations}}
+\hypertarget{ch-alignment-and-control}{%
+\chapter{Alignment and Control}\label{ch-alignment-and-control}}
 
 \hypertarget{footnotes}{%
 \section{Footnotes}\label{footnotes}}
@@ -307,8 +356,8 @@ The \texttt{bs4\_book} theme makes footnotes appear inline when you click on the
 
 The RStudio Visual Markdown Editor can also make it easier to insert citations: \url{https://rstudio.github.io/visual-markdown-editing/\#/citations}
 
-\hypertarget{blocks}{%
-\chapter{Blocks}\label{blocks}}
+\hypertarget{ch-explainability}{%
+\chapter{Explainability and Interpretability}\label{ch-explainability}}
 
 \hypertarget{equations}{%
 \section{Equations}\label{equations}}
@@ -360,8 +409,8 @@ You may also use: \texttt{.rmdcaution}, \texttt{.rmdimportant}, \texttt{.rmdtip}
 
 The R Markdown Cookbook provides more help on how to use custom blocks to design your own callouts: \url{https://bookdown.org/yihui/rmarkdown-cookbook/custom-blocks.html}
 
-\hypertarget{sharing-your-book}{%
-\chapter{Sharing your book}\label{sharing-your-book}}
+\hypertarget{ch-safety}{%
+\chapter{Safety, Security and Accountability}\label{ch-safety}}
 
 \hypertarget{publishing}{%
 \section{Publishing}\label{publishing}}

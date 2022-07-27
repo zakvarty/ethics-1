@@ -4,17 +4,17 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Chapter 1 About | MLDS Ethics - Part 1</title>
+<title>Welcome! | MLDS Ethics - Part 1</title>
 <meta name="author" content="Zak Varty">
 <meta name="description" content="Course notes for MLDS Ethics Part 1.">
 <meta name="generator" content="bookdown 0.26 with bs4_book()">
-<meta property="og:title" content="Chapter 1 About | MLDS Ethics - Part 1">
+<meta property="og:title" content="Welcome! | MLDS Ethics - Part 1">
 <meta property="og:type" content="book">
 <meta property="og:url" content="https://ethics-1.zakvarty.com/">
 <meta property="og:image" content="https://ethics-1.zakvarty.com/assets/ethics-1-logo.jpg">
 <meta property="og:description" content="Course notes for MLDS Ethics Part 1.">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Chapter 1 About | MLDS Ethics - Part 1">
+<meta name="twitter:title" content="Welcome! | MLDS Ethics - Part 1">
 <meta name="twitter:description" content="Course notes for MLDS Ethics Part 1.">
 <meta name="twitter:image" content="https://ethics-1.zakvarty.com/assets/ethics-1-logo.jpg">
 <!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -68,13 +68,14 @@
 
       <nav aria-label="Table of contents"><h2>Table of contents</h2>
         <ul class="book-toc list-unstyled">
-<li><a class="active" href="index.html"><span class="header-section-number">1</span> About</a></li>
-<li><a class="" href="hello-bookdown.html"><span class="header-section-number">2</span> Hello bookdown</a></li>
-<li><a class="" href="cross.html"><span class="header-section-number">3</span> Cross-references</a></li>
-<li><a class="" href="parts.html"><span class="header-section-number">4</span> Parts</a></li>
-<li><a class="" href="footnotes-and-citations.html"><span class="header-section-number">5</span> Footnotes and citations</a></li>
-<li><a class="" href="blocks.html"><span class="header-section-number">6</span> Blocks</a></li>
-<li><a class="" href="sharing-your-book.html"><span class="header-section-number">7</span> Sharing your book</a></li>
+<li><a class="active" href="index.html">Welcome!</a></li>
+<li><a class="" href="course-overview.html">Course Overview</a></li>
+<li><a class="" href="ch-foundations.html"><span class="header-section-number">1</span> Foundations of Ethical AI</a></li>
+<li><a class="" href="ch-privacy-and-autonomy.html"><span class="header-section-number">2</span> Privacy and Autonomy</a></li>
+<li><a class="" href="ch-fairness.html"><span class="header-section-number">3</span> Fairness</a></li>
+<li><a class="" href="ch-alignment-and-control.html"><span class="header-section-number">4</span> Alignment and Control</a></li>
+<li><a class="" href="ch-explainability.html"><span class="header-section-number">5</span> Explainability and Interpretability</a></li>
+<li><a class="" href="ch-safety.html"><span class="header-section-number">6</span> Safety, Security and Accountability</a></li>
 <li><a class="" href="license.html">License</a></li>
 <li><a class="" href="build-information.html">Build Information</a></li>
 <li><a class="" href="references.html">References</a></li>
@@ -85,42 +86,55 @@
         </div>
       </nav>
 </div>
-  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><!--bookdown:title:end--><!--bookdown:title:start--><div id="about" class="section level1" number="1">
-<h1>
-<span class="header-section-number">1</span> About<a class="anchor" aria-label="anchor" href="#about"><i class="fas fa-link"></i></a>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><!--bookdown:title:end--><!--bookdown:title:start--><div id="welcome" class="section level1 unnumbered">
+<h1>Welcome!<a class="anchor" aria-label="anchor" href="#welcome"><i class="fas fa-link"></i></a>
 </h1>
 <div class="small_right">
 <div class="inline-figure"><img src="assets/ethics-1-logo.jpg" alt="Logo"></div>
 </div>
-<p>This is a <em>sample</em> book written in <strong>Markdown</strong>. You can use anything that Pandoc’s Markdown supports; for example, a math equation <span class="math inline">\(a^2 + b^2 = c^2\)</span>.</p>
-<div id="usage" class="section level2" number="1.1">
-<h2>
-<span class="header-section-number">1.1</span> Usage<a class="anchor" aria-label="anchor" href="#usage"><i class="fas fa-link"></i></a>
+<p>Data-driven decision making is now pervasive and impacts us all. Your data is used by others to make decisions about who you are, how you will behave, and what options should be made available to you. Predictive models are used to decide anything from the promotion that is offered to you by a retailer through to whether your loan application is granted by a bank.</p>
+<p>The ways in which these predictive models can fail <em>mathematically</em> form a core part of the training for an aspiring statistician, data scientist or machine learning practitioner. In contrast, the potential for <em>ethical</em> failures in these same models is rarely covered in-depth during as part of this initial training. As a result, these ethical modes of failure are often not considered until those predictive models have been put into production and are actively causing harm.</p>
+<p>To prevent this harm, the ethical impacts of using data to make decisions must be made core to the curriculum of both statistics and data science. This course aims to address that gap.</p>
+<p>The course takes a practical and technical approach to identifying these ethical issues. It has a strong mathematical focus and will not not require the authoring of extended essays or moral treaties. Throughout the course, we give actionable ways in which these topics may be integrated into a data science workflow at a range of levels.</p>
+<div id="module-description" class="section level2 unnumbered">
+<h2>Module Description<a class="anchor" aria-label="anchor" href="#module-description"><i class="fas fa-link"></i></a>
 </h2>
-<p>Each <strong>bookdown</strong> chapter is an .Rmd file, and each .Rmd file can contain one (and only one) chapter. A chapter <em>must</em> start with a first-level heading: <code># A good chapter</code>, and can contain one (and only one) first-level heading.</p>
-<p>Use second-level and higher headings within chapters like: <code>## A short section</code> or <code>### An even shorter section</code>.</p>
-<p>The <code>index.Rmd</code> file is required, and is also your first book chapter. It will be the homepage when you render the book.</p>
+<p>This module will investigate the ethical implications of the new capabilities offered by Data Science and Artificial Intelligence.</p>
+<p>Part 1 will begin by discussing the ethical use of data itself - the raw materials of data science pipelines. It will then discuss sets of principles that tech leaders and international bodies are adopting to promote ethical use of data science and artificial intelligence algorithms, including a discussion of real-world examples of failings and adverse outcomes.</p>
+<p>Parts 2 and 3 will then revisit the issues explored in Part 1 in greater technical detail. These parts will introduce data science methodologies that provide novel solutions to ethical problems of old such as explainability, prejudice and bias.</p>
 </div>
-<div id="render-book" class="section level2" number="1.2">
-<h2>
-<span class="header-section-number">1.2</span> Render book<a class="anchor" aria-label="anchor" href="#render-book"><i class="fas fa-link"></i></a>
+<div id="learning-objectives" class="section level2 unnumbered">
+<h2>Learning Objectives<a class="anchor" aria-label="anchor" href="#learning-objectives"><i class="fas fa-link"></i></a>
 </h2>
-<p>You can render the HTML version of this example book without changing anything:</p>
+<p>On successful completion of this module, you should be able to:</p>
 <ol style="list-style-type: decimal">
-<li><p>Find the <strong>Build</strong> pane in the RStudio IDE, and</p></li>
-<li><p>Click on <strong>Build Book</strong>, then select your output format, or select “All formats” if you’d like to use multiple formats from the same book source files.</p></li>
+<li>Recognise and accept responsibility for the societal impact of data science and machine learning technologies;</li>
+<li>Participate in the broader debate about the issues surrounding the use of data science and machine learning for prediction, decision making and knowledge generation tasks;</li>
+<li>Identify common ethical pitfalls of data science and ML algorithms via a mental “check-list” and evaluate the degree to which a given algorithm is likely to conform with ethical best practices.</li>
+<li>Formally test for common ethical pitfalls of data science and ML algorithms.</li>
+<li>Implement mitigation measures against the ethical risks posed by the use of data science and ML algorithms.</li>
+<li>Construct well-founded and evidence-based arguments with which to positively influence the actions of stakeholders and decision-makers;</li>
+<li>Use a systems perspective to holistically appraise data science projects on their ethical and societal impacts.</li>
 </ol>
+</div>
+<div id="contributors" class="section level2 unnumbered">
+<h2>Contributors<a class="anchor" aria-label="anchor" href="#contributors"><i class="fas fa-link"></i></a>
+</h2>
+<p>These notes are structured around a course delivered as part of the the Master’s degree in Machine Learning and Data Science at Imperial College London, which was developed by Christoforos Anagnostopoulos and Zak Varty.</p>
+<p>These course notes were written by Zak Varty and are still under active development. If you spot any issues or would like to contribute to their development, you may <a href="https://github.com/zakvarty/ethics-1/issues" title="Github: Ethics 1 Issues">raise an issue</a> or <a href="https://github.com/zakvarty/ethics-1/pulls" title="Github: Ethics 1 - Pull Request">submit a pull request</a> to the associated github repository.</p>
+
 </div>
 </div>
   <div class="chapter-nav">
 <div class="empty"></div>
-<div class="next"><a href="hello-bookdown.html"><span class="header-section-number">2</span> Hello bookdown</a></div>
+<div class="next"><a href="course-overview.html">Course Overview</a></div>
 </div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
     <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
       <ul class="nav navbar-nav">
-<li><a class="nav-link" href="#about"><span class="header-section-number">1</span> About</a></li>
-<li><a class="nav-link" href="#usage"><span class="header-section-number">1.1</span> Usage</a></li>
-<li><a class="nav-link" href="#render-book"><span class="header-section-number">1.2</span> Render book</a></li>
+<li><a class="nav-link" href="#welcome">Welcome!</a></li>
+<li><a class="nav-link" href="#module-description">Module Description</a></li>
+<li><a class="nav-link" href="#learning-objectives">Learning Objectives</a></li>
+<li><a class="nav-link" href="#contributors">Contributors</a></li>
 </ul>
 
       <div class="book-extra">
