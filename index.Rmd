@@ -6,7 +6,7 @@ site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
 url: https://ethics-1.zakvarty.com/
-cover-image: images/ethics-1-logo.jpg
+cover-image: assets/ethics-1-logo.jpg
 description: |
   Course notes for MLDS Ethics Part 1.
 biblio-style: apalike
@@ -18,7 +18,7 @@ csl: chicago-fullnote-bibliography.csl
 # About
 
 ::: small_right
-<img src="images/ethics-1-logo.jpg" alt="Logo"/>
+<img src="assets/ethics-1-logo.jpg" alt="Logo"/>
 :::
 
 This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports; for example, a math equation $a^2 + b^2 = c^2$.
