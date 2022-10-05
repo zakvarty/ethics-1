@@ -389,3 +389,77 @@ In Section \@ref(do-no-harm) we understood what this course will be about, in th
 We clarified that codes of conduct are obligations that arise if we are to expect the trust of our fellow citizens. We also emphasized, once again, that many modern codes of conduct and pieces of regulation came about after humanitarian disasters. Our ambition and hope is that AI and data science will self-regulate in an effective manner before that happens. Finally, we used examples from the medical profession to illustrate how professional codes of conduct can act as fail-safes against individual, corporate or government misconduct. 
 
 Throughout this course, we have come to the question of principles again and again. A simple set of concepts that create a scaffold against which we can analyse the ethical implications of our work. Finally we have reached the point where we can list our own set of principles and that is what we will do in the following section.  
+
+
+## Five Principles of Ethical AI 
+
+### Recap 
+
+This first section of the course has been intense. We've covered a lot of ground.
+
+We saw how important it is for us to think about the ethical implications of our work, how complex the work of a data scientist really is, and how each stage of their work stream carries different ethical risks. We also saw how professional codes of conduct act as a contract of trust between a profession and the public. Those codes of conduct can reduce the vast complexity of moral reasoning down to relatively simple general principles, which guide us as we consider each project or dilemma individually. Equipped with all of that context, we can now finally discuss the principles of ethical AI that will form the structure for the rest of this course.
+
+### Medical Ethics Revisited
+
+we saw earlier how medical ethics reduces the complex space of ethical medical care to just four principles: non-maleficence, beneficence, equity and autonomy. 
+
+From a philosophical perspective privacy can be seen as a special case of autonomy; your data is in many ways a part of you and therefore should remain under your control. We might therefore ask ourselves, are these four principles perhaps relevant or even sufficient for data science?
+
+This points us to a very important question in the study of ethics, that of novelty. It is tempting to assume that a revolutionary new technology like AI cannot possibly fit under ethical frameworks designed hundreds of years ago. However, it is not obvious that the problems posed by AI are fundamentally different ethical issues to those in medicine, despite their superficial differences. 
+
+Take the example of autonomy. Various countries take different attitudes on the relative importance of patient autonomy versus public health. This explains why the issue of compulsory vaccination is such a heated point of debate. In the exact same way, different countries took a different position on the relative importance of privacy and public health. During the early stages of the COVID pandemic, some nations were prepared to disclose citizen location data in order to establish close contact notification systems, whereas in other nations this type of solution was considered too invasive; it was thought as it was thought of as a non-starter from a public acceptance perspective and was never even tried on privacy grounds.
+
+Similarly, it may be questioned whether a patient can really give informed consent on a complex medical treatment when they lack the necessary background to understand it fully. For the same reason, it could be questioned whether all loan applicants understand the implications for their financial health when they apply for a loan and consent to their credit history being checked automatically via an algorithm.  
+
+AI and medical interventions seem to pose similar ethical issues in terms of autonomy, privacy and consent in these examples.
+
+
+### Ethical Prinicples for Data Science and AI
+
+One of the most important philosophers of technology [TODO: citation from slides] took this reasoning a step further and argued in a recent and very influential paper that AI poses only a single new ethical problem, that of explainability. This is because, for the first time in human history, decisions are going to be made by algorithms not humans. At the end of the day, one can always ask a doctor why they made a certain decision that led to patient harm and hence can judge if their actions were justifiable. What should one do if the decision was instead made by a deep neural network? 
+
+[TODO: add Floridi and Cowls figure]
+
+Figure [TODO: add fig ref] is from the paper in question [TODO: ref] entitled a unified framework of five principles for ai in society and it illustrates this idea. All we need to do, it argues, to obtain a set of principles for ethical AI is to take the traditional set of four bio-ethical principles and add a fifth that of explainability. This principle is a given in the case of most human decision making but very far from obvious in the case of algorithmic decision making. 
+
+We should also note that medical ethics is just one precursor to data science ethics, albeit a very important one. The history of AI itself from its origins in computer science and data can already reveal a number of additional fields of ethical study. This begins with computer ethics, moving on to data ethics and then to the ethics of algorithms that learn, which can pose different challenges such as bias or unpredictability. Yet another field of ethics is that of robots or automation ethics, which is concerned with the moral hazard of delegating decision making to machines. 
+
+The final relative of data science ethics that we will mention is the slightly futuristic ethics of artificial general intelligence. If we take a leap into the far future, we could argue that even though current AI systems require only explainability as an additional ethical principle, AI systems of the future almost certainly will need more. 
+
+One interesting example is the question of whether AI systems might one day become themselves capable of suffering, or at least become convincing enough in their human-like behaviour that we will be unable to tell if they are really suffering or not. It might be okay for your cat to take a ride on your roomba (a small household robot designed to clean floors) but is it okay for you to kick the robot, or to swear at it if it fails to clean a part of your room? Is that a type of abuse and who is being harmed? Even if we all accept that a roomba is so simple a machine that it certainly does not have the ability to suffer, might we still risk developing toxic psychological habits ourselves if we regularly abuse human-like robots. This is, perhaps, another family of genuinely new ethical questions that are philosophically interesting and might also become increasingly relevant in the future, but we won't be discussing them much in this course.
+
+### Artificial General Intelligence
+
+Another ethical concern with AI is that of us eventually losing control over it. This idea of an AI that suddenly wakes up and decides to terminate humanity is as old as the idea of robots and is a strong theme with science fiction and popular science writers. This concern does not really apply to simple data science pipelines or current forms of AI. It refers instead to what is known as __artificial general intelligence__, a term reserved for systems that are able to solve arbitrary cognitive problems as opposed to __narrow AI__, which might be able to have superhuman performance in say chess or go but would not know what to do if you asked it to cook dinner. Whether artificial general intelligence is achievable is an open question. Prominent thinkers in AI safety [TODO: REF?] believe that no matter how low the probability of creating an AGI the damage that an out of control super intelligent computer could cause is so high that the overall problem should still be studied in earnest now.
+
+Science fiction does not have to describe the future accurately to be useful. Such forms of thought experiment take current trends to their logical extremes and in doing so reveals ethical problems that already exist. By taking these to logical extremes the same issues are plainer to see. 
+
+The previous discussion of AGI highlights relevant concerns about how humans can retain control of autonomous decision-making systems. This links back to explainability. For a human to have any ability to correct the action of an AI system, they need to be able to understand what that system is doing. This concern extends beyond just explainability, for example consider a self-driving car. We would like a human passenger to be able to rapidly take back control of the vehicle, however explainable its artificial intelligence might be. 
+
+Another concern is the use of AI to optimize various production systems. In these cases we must be very careful to make sure that we are optimizing the right thing. We have to ensure that the system we create is aligned with our true objectives and values, not some simplified approximation of them. This task is known as value alignment and is much easier said than done. We will have the chance to go into it quite deeply later in the course.
+
+Even if we put aside the possibility of evil robots, current AI technology can still present a real and present danger to humanity. Autonomous weapons are such a clear cut example of a threat that most technology companies have promised not to pursue any research in that direction. The future of life institute founded to monitor and mitigate existential risks gathered signatures from thousands of AI researchers and prominent stakeholders to declare their commitment to staying away from this dangerous space.
+
+### Ethical Deadends
+
+__Moratoria__ are the decision not to pursue research in a space. Moratoria have been issued by companies or governments for other use case with subtler risk profiles, such as facial recognition [TODO: REF]. The outcome of banning further research into an area is difficult to predict, as can be seen from the decades-long efforts for nuclear disarmament. Bad actors will continue to do research in these spaces and gain ground, no matter what regulations say. History tells us that even democracies, when in possession of extremely powerful tools or dangerous weapons, might still make bad decisions. We don't have time to extend this discussion further in this course, but it is important to know that professional codes of conduct sometimes do have specific red lines and certain use cases like autonomous weapons may very well end up falling beyond those.
+
+### Five Principles of Ethical Data Science
+
+We are finally in a position to state our preferred five principles of ethical data science: 
+
+1. Privacy and Autonomy
+2. Fairness
+3. Value alignment and control
+4. Explainability
+5. Safety, security and accountability
+
+Privacy, autonomy and fairness match their the respective bio-ethical principles. Value alignment and control is our own, more technical, interpretation of beneficence. The principle of explainability follows from that of Floridi and Cowls. The final principle of safety, security and accountability is inspired by the bio-ethical principle of non-maleficence, rephrased to draw focus to the need for proper data governance and liability structures.
+
+These five principles will structure the technical content of this course. In the remainder of part 1 of this course we will use one week to explore each of these principles. Parts 2 and 3 of the ethics module will deep-dive into these topics in greater detail.  
+
+### Conclusion
+
+In this final section, we have seen how AI poses somewhat new versions of the same challenges present in other areas such as medical ethics, data ethics, and technology ethics. We have also seen some altogether new challenges, like explainability and perhaps also some aspects within value alignment and control. 
+
+Concerns about bout future technologies (artificial general intelligence) and those that already exist (autonomous weapons) allowed us to structure our technical content into coherent units. We will use our own factorization of data science ethics into five principles which closely aligns with what with that of one of the leading figures in technology ethics.

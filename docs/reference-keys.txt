@@ -38,6 +38,14 @@ how-do-we-determine-ethical-behaviour
 medical-codes-of-conduct
 codes-of-conduct-in-other-professions
 conclusion-2
+five-principles-of-ethical-ai
+recap
+medical-ethics-revisited
+ethical-prinicples-for-data-science-and-ai
+artificial-general-intelligence
+ethical-deadends
+five-principles-of-ethical-data-science
+conclusion-3
 ch-privacy-and-autonomy
 captioned-figures-and-tables
 ch-fairness
