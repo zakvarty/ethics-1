@@ -2,6 +2,7 @@ fig:nice-fig
 tab:nice-tab
 eq:binom
 assessments
+reading-summaries
 ch-foundations
 do-no-harm
 ai-for-good
@@ -19,6 +20,19 @@ hippocratic-oath
 hippocratic-oath-for-data-scientists
 doing-the-right-thing-is-neither-obvious-nor-is-it-easy
 conclusion
+data-science-pipelines
+classification
+regression
+unsupervised-learning
+modelling-as-part-of-a-pipeline
+data-collection
+data-pre-processing
+formulating-your-research-question
+modelling-and-inference
+deployment
+monitoring
+notes-on-the-term-bias
+conclusion-1
 ch-privacy-and-autonomy
 captioned-figures-and-tables
 ch-fairness

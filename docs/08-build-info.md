@@ -18,7 +18,7 @@ This version of the book was built with:
 #>  collate  en_GB.UTF-8
 #>  ctype    en_GB.UTF-8
 #>  tz       Europe/London
-#>  date     2022-07-28
+#>  date     2022-10-05
 #>  pandoc   2.18 @ /Applications/RStudio.app/Contents/MacOS/quarto/bin/tools/ (via rmarkdown)
 ```
 
@@ -54,13 +54,13 @@ Along with these packages:
 |purrr       |0.3.4   |2020-04-17 |CRAN (R 4.2.0) |
 |R6          |2.5.1   |2021-08-19 |CRAN (R 4.2.0) |
 |remotes     |2.4.2   |2021-11-30 |CRAN (R 4.2.0) |
-|rlang       |1.0.2   |2022-03-04 |CRAN (R 4.2.0) |
+|rlang       |1.0.5   |2022-08-31 |CRAN (R 4.2.0) |
 |rmarkdown   |2.14    |2022-04-25 |CRAN (R 4.2.0) |
 |rprojroot   |2.0.3   |2022-04-02 |CRAN (R 4.2.0) |
 |rstudioapi  |0.13    |2020-11-12 |CRAN (R 4.2.0) |
 |sessioninfo |1.2.2   |2021-12-06 |CRAN (R 4.2.0) |
-|stringi     |1.7.6   |2021-11-29 |CRAN (R 4.2.0) |
-|stringr     |1.4.0   |2019-02-10 |CRAN (R 4.2.0) |
+|stringi     |1.7.8   |2022-07-11 |CRAN (R 4.2.0) |
+|stringr     |1.4.1   |2022-08-20 |CRAN (R 4.2.0) |
 |testthat    |3.1.4   |2022-04-26 |CRAN (R 4.2.0) |
 |usethis     |2.1.6   |2022-05-25 |CRAN (R 4.2.0) |
 |withr       |2.5.0   |2022-03-03 |CRAN (R 4.2.0) |

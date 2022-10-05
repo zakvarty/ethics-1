@@ -1,7 +1,7 @@
 ---
 title: "MLDS Ethics - Part 1"
 author: "Zak Varty"
-date: "2022-07-28"
+date: "2022-10-05"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
@@ -41,9 +41,9 @@ On successful completion of this module, you should be able to:
 
 1.  Recognise and accept responsibility for the societal impact of data science and machine learning technologies;
 2.  Participate in the broader debate about the issues surrounding the use of data science and machine learning for prediction, decision making and knowledge generation tasks;
-3.  Identify common ethical pitfalls of data science and ML algorithms via a mental "check-list" and evaluate the degree to which a given algorithm is likely to conform with ethical best practices.
-4.  Formally test for common ethical pitfalls of data science and ML algorithms.
-5.  Implement mitigation measures against the ethical risks posed by the use of data science and ML algorithms.
+3.  Identify common ethical pitfalls of data science and ML algorithms via a mental "check-list" and evaluate the degree to which a given algorithm is likely to conform with ethical best practices;
+4.  Formally test for common ethical pitfalls of data science and ML algorithms;
+5.  Implement mitigation measures against the ethical risks posed by the use of data science and ML algorithms;
 6.  Construct well-founded and evidence-based arguments with which to positively influence the actions of stakeholders and decision-makers;
 7.  Use a systems perspective to holistically appraise data science projects on their ethical and societal impacts.
 

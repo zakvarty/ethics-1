@@ -139,20 +139,17 @@ ones that understand it well enough.
 
 #### Taking responsibility
 
-Similarly, data scientists like yourselves are the first line of defence against
-harmful AI because you are the ones that understand these systems well enough to anticipate what might go wrong with them.
+Similarly, data scientists like yourselves are the first line of defence against harmful AI because you are the ones that understand these systems well enough to anticipate what might go wrong with them.
 
 Just like theoretical physicists in the early 20th century, data scientists before the onset of big data did not have to worry about this as their work had limited impact and only in very specific conditions.
 
-Now with data science in AI increasingly becoming a part of the very fabric
-of society and the economy, we all do carry a burden to demonstrate its safety.
-As data scientists, we not alone in this; many other professions carry a similar
-burden of responsibility and have to abide by strict codes of conduct and are legally liable for the outcomes of their work.
+Now with data science in AI increasingly becoming a part of the very fabric of society and the economy, we all do carry a burden to demonstrate its safety.
+
+As data scientists, we not alone in this; many other professions carry a similar burden of responsibility and have to abide by strict codes of conduct and are legally liable for the outcomes of their work.
 
 ###  Learning from other professions
 
-Doctors and drug design researchers are one example, which is very prominent in a pandemic era. There are also other,more quotidian, examples that we rarely think about including lawyers and the engineers that build the infrastructure
-we use on a daily basis like the houses we live in, the power network, the transport network, and the bridges that we hope don't fall.
+Doctors and drug design researchers are one example, which is very prominent in a pandemic era. There are also other,more quotidian, examples that we rarely think about including lawyers and the engineers that build the infrastructure we use on a daily basis like the houses we live in, the power network, the transport network, and the bridges that we hope don't fall.
 
 All of these professions know that lives depend on them getting things right and they hence adopt a safety-first approach to risk-management. This is what we are inviting you to adopt in your own work.
 
@@ -160,54 +157,38 @@ Doctors are a particularly interesting example in that, from antiquity, they hav
 
 #### Hippocratic Oath
 
-As early as 2,500 years ago, doctors would swear by the Hippocratic oath,
-which among other things included a commitment to medical confidentiality and non-maleficence, or as it is commonly known, "do no harm".
+As early as 2,500 years ago, doctors would swear by the Hippocratic oath, which among other things included a commitment to medical confidentiality and non-maleficence, or as it is commonly known, "do no harm".
 
-The idea is that a doctor should not take unnecessary risks when considering
-treatment options for a patient. This simple command has had tremendous
-influence throughout the centuries in our understanding of professional ethics.
-It may even lie at the core of recent corporate mission statements, such as the famous motto, "don't be evil", that google used to have as the opening statement of its internal code of conduct. This was later rephrased to "you
-can make money without being evil", but in both cases captures the aspiration
-that companies should strive to not hurt society or the users of their
-products, even as they try to make profit.
+The idea is that a doctor should not take unnecessary risks when considering treatment options for a patient. This simple command has had tremendous influence throughout the centuries in our understanding of professional ethics. It may even lie at the core of recent corporate mission statements, such as the famous motto, "don't be evil", that Google used to have as the opening statement of its internal code of conduct. This was later rephrased to "you
+can make money without being evil", but in both cases captures the aspiration that companies should strive to not hurt society or the users of their products, even as they try to make profit.
 
 This dual allegiance is a theme we will return to in this course and a core objective of professional codes of conduct. What we are seeking is something like a Hippocratic oath for data scientists.
 
 #### Hippocratic Oath for Data Scientists
 
-Doctors start thinking about medical ethics very early in their training and literally stand in front of a crowd taking an oath not to hurt their patients to
-protect their privacy, amongst other things.
+Doctors start thinking about medical ethics very early in their training and literally stand in front of a crowd taking an oath not to hurt their patients to protect their privacy, amongst other things.
 
 A profession with as broad an impact as data science ought to have a similar process, as Cathy O'Neil argued  in her 2016 book _Weapons of Math Destruction_.
 
-I haven't yet quite decided whether we should all take an oath together when
-the course is completed, but that is definitely the idea.
+I haven't yet quite decided whether we should all take an oath together when the course is completed, but that is definitely the idea.
 
-So I've invited you to think about using AI for good and ensuring it is safe.
-But how easy is that, really? 
+So I've invited you to think about using AI for good and ensuring it is safe. But how easy is that, really? 
 
 ### Doing the right thing is neither obvious nor is it easy 
 
 It turns out that doing the right thing is neither obvious nor easy.
 
-We will often lack context or lack an understanding of the group which is most at risk. Unless advocates representing that group are consulted, our ignorance might be dangerous.
+We will often lack context or lack an understanding of the group which is most at risk. Unless advocates representing that group are consulted, our ignorance might be dangerous.Moreover, even when we have the necessary facts, humans are often hampered by cognitive biases and bad habits. Processes need to be in place to overcome such sources of error. 
 
-Moreover, even when we have the necessary facts, humans are often hampered by cognitive biases and bad habits. Processes need to be in place to
-overcome such sources of error. Even in cases where we know
-what the right thing is, it might be difficult to do it unless the right incentive structures are in place.
+Even in cases where we know what the right thing is, it might be difficult to do it unless the right incentive structures are in place. If it is not safe to raise a certain concern in the company or if it is likely to negatively impact your career progression, then fewer people will have the courage and determination to do it.
 
-If it is not safe to raise a certain concern in the company or if it is likely to negatively impact your career progression, fewer people will have the courage and determination to do it.
-
-We should build organisations in which you don't have to be a hero to do
-the right thing. In certain situations, even when both the knowledge and
-the will to do the right thing are present, we will be faced with moral dilemmas where one harm must be balanced against another. Given all this, it is easy to give up. Just because the problem is too big to fix immediately, that does not mean you can't make progress. 
+We should build organisations in which you don't have to be a hero to do the right thing. In certain situations, even when both the knowledge and the will to do the right thing are present, we will be faced with moral dilemmas where one harm must be balanced against another. Given all this, it is easy to give up but just because the problem is too big to fix immediately, that does not mean you can't make progress. 
 
 Finally, despite our best efforts, our technology can sometimes have unanticipated consequences. A humble attitude where we learn from our mistakes is needed to at least ensure that no accident happens twice.
 
-Having said all that, we should clarify that we won't attempt to define
-what is right in this course. That's too hard, and this is not a course in moral philosophy. After all, your instructors are both mathematicians, not social scientists or philosophers. We will mostly take certain values as a given, as you will see later in this week. 
+Having said all that, we should clarify that we won't attempt to define what is right in this course. That's too hard, and this is not a course in moral philosophy. After all, your instructors are both mathematicians, not social scientists or philosophers. We will mostly take certain values as a given, as you will see later in this week. 
 
-You can maybe think of this course as an attempt to change your default perspective on your work. Where you might be used to focusing on success stories and the likely positive impact of your work, you will now start to think about near-misses: things that could have gone wrong and anticipate harm they might have caused.
+You can perhaps think of this course as an attempt to change your default perspective on your work. Where you might be used to focusing on success stories and the likely positive impact of your work, you will now start to think about near-misses: things that could have gone wrong and anticipate harm they might have caused.
 
 Where before you might focus on how to access more data, you will now start to think about whether you have permission to use the data in a certain way.
 
@@ -215,8 +196,7 @@ Where before, you might have been committed to do good and not evil, but this ma
 
 Where before, you might not even have thought it was part of your job as a data scientist to worry about such things. Going forward, as a specialist in the field, you will see it as your responsibility to raise the bar. 
 
-Where you would see unsolvable moral dilemmas, now you will seek to explicitly
-quantify these trade-offs so as to have an informed conversation about the right balance.
+Where you would previously see unsolvable moral dilemmas, now you will seek to explicitly quantify these trade-offs so as to have an informed conversation about the right balance.
 
 Where you might have hoped that eventually technology will solve its own problems, and we should just focus on doing more research; now, you will approach the problem more pragmatically, acknowledging that not all problems can be solved with technology and in any case we cannot afford to wait.
 
@@ -239,6 +219,116 @@ In what follows, we will pause to better define what data scientists actually bu
 
 We will then discuss the progress that has been made to date by way of codifying the ethics of data science and AI, and conclude the week by offering our own codification of this problem area into five major principles.
 
-These five principles will also serve as the backbone of the rest of the course.
+These five principles will also serve as the backbone of the rest of the course. Welcome aboard!
 
-Thank you and welcome aboard.
+## Data Science Pipelines
+
+In the previous section, we covered in detail why we should consider the ethical dimensions of our work as data scientists. To do this we relied on analogies with other professions such as doctors and engineers. 
+
+In this section, we will take a break from ethics to get on the same page as to what exactly it is that data scientists and AI engineers build. Is it a model? Is it a product? Or is it a business process? We'll try to come up with a description that fits the most common use cases out there. If you're a practitioner already, then you will recognize much of what follows. You might you refer to some of it with different names so another reason for this discussion to align on the terminology that we will use within this course.
+
+When you ask the question what do data scientists and AI engineers build, you are likely to get one of two popular answers.  Many technically minded faults will say they build models, be that a regression model or a neural network. According to these people, the output of a data scientist's job is a trained machine learning model that can then make predictions in the real world. At the other extreme, people without technical training might say they build automated (or partially automated) decision making systems. These people think about a finished product and how it operates in the world. 
+
+We will argue in this course that both of these views are incomplete. We take the view that data scientists and AI engineers do not build algorithms but rather they construct business processes that are used to build algorithms, which together we will call pipelines.
+
+This broader view is more suitable for our purposes because it alllows for a more holistic appreciation of the stages where things can go wrong.  If you take one thing away from this course is that your work output as a data scientist is a pipeline that generates a model not just the model itself. A sloppy pipeline without documentation and bits and pieces of manual work that no one recalls or can necessarily reproduce is a problematic work output, even if the resulting model has incredible accuracy. This mindset shift is urgently needed not just from data scientists but also from their managers and the public. Exclusive focus on the model and its accuracy invites complacency in the manufacturing process. Ask any chef or factory floor manager - a clean and organized working space underlies all quality work
+
+Let's take a few steps back. What is a data science pipeline anyway? Let's start with the most classical use case for machine learning, that of _supervised learning_. This comes in two main 'flavours', which you may have met already. 
+
+### Classification
+[TODO: INSERT CAT PICTURE]
+
+Here's a cat. Or is it a dog? Your brain is pretty sure it's a cat even though you don't quite know why. All you know is that when you see a cat some area within your brain fires up and returns the answer cat. This is known as _classification_ in machine learning and it is the problem of attaching a label to an object based on a description or some _features_ of that object. This is an example of  _binary classification_ because we only have two labels: cat and dog. 
+
+Of course, your brain can do much more than that. Had the picture been of a giraffe, you wouldn't have said "well this is neither cat nor dog... but it's closest to a cat so I'll have to go with that". You (hopefully) would have immediately reported that it is a giraffe and that it is ridiculous to call it a cat or a dog. 
+
+This is because your brain acts like a multi-class animal classifier, with hundreds of animals to choose from, not just two. Even such multi-class classifiers have their limitations - for example you may never have seen the first animal before and it is not clear whether the second is a chihuahua or a muffin. This sort of "out of sample" or misapplication error is a common mode of failure for classifiers that we will explore in greater detail later in the course.
+
+[TODO: Add Bluefooted booby and chihuahua/muffin images]
+
+Returning to binary classifiers, how might we construct one? We could try to write a function that describes a set of rules about how a cat picture looks different to a dog picture. In fact, early image classification techniques, known as expert systems, did just that. A long list of rules would be developed trying to exhaustively list the differences between dogs and cats. That's tedious work and it is also not how humans learn to tell dogs apart from cats.
+
+If you have a child, you know that it takes a lot of pointing and trial and error for a child to learn how each animal looks. A lot of early childhood play is in fact about that about training children to classify objects: shapes, colours, animals and so on. WHen describing these everyday objects, we might sometimes revert to explicit rules, for example we might say to a toddler that dogs are generally bigger than cats. However, this is usually to fine tune a system that has been put in place by looking at a large set of _labelled examples_ and asking children to extrapolate.
+
+[TODO: Insert Model schematic]
+
+Supervised learning follows the same logic. We we have a model with two supporting functions: a training function allows it to take as input a set of examples $x$ and their associated labels $y$ and use these update its internal state according to some optimization criterion. The model also has a predict function, which can provide a label (that may or may not be correct) to any example it is given. We can see from this that a predictive model cannot really be thought of as separate to its training data and training algorithm. They are in effect one and the same object. 
+
+Now let us look at that a little bit more abstractly. An algorithm is any pre-specified list of instructions that takes an input and produces an output. For example addition takes as input two numbers and gives back their sum.
+
+A machine learning model is more complex, it has an algorithm that takes as input a training data set of labelled examples and outputs what is in reality another algorithm but in fact in software it is usually represented by a parameter $\theta$. This parameter might be a single number, a vector of numbers, or something quite a bit more complex. For example in a linear or logistic regression $\theta$ would be a vector of regression coefficients. The fitted parameters $\theta$ can then be used as an input by the predictive model to produces a predicted label for a new example. We can think of the predictive model as just another algorithm with two inputs: the fitted parameters $\theta$ and the example we would like to classify.  
+
+Let's revisit exactly what we mean by a _label_ here. In the example above we had two possibilities "cat" and "dog", that's binary classification. A classification tool could accept more than two labels, but there needs to be a finite set of them determined in advance. There are many real world variations of this problem with labels that are nested or hierarchical. We might also convert a numeric variable into a label for convenience, for example we might predict whether the value of a stock went up or down, if we are interested in only the direction and not the size of that change.
+
+We will often want to predict the probability of each possible label, rather than returning the most likely label. This is known as probabilistic, soft or fuzzy classification, depending on who you ask. With a little bit of work, most modern classifiers are able to produce a score which can be interpreted as a probability, though the underlying algorithm might not be actually designed to do so. This can sometimes result in quite old-looking probabilities an issue that we will revisit it when we discuss explainability in detail. 
+ 
+### Regression 
+
+In other settings, you might want to predict or describe a numeric variable, for example the yield of a crop or the price of a house. Usually this is referred to as a _regression_ problem, in contrast to classification problem that we met earlier. Many algorithms that perform classification can also perform regression and vice-versa, requiring only minor modifications. 
+
+### Unsupervised Learning
+Finally, there are also types of machine learning that are unsupervised, where there is no obvious _target variable_ whose value we want to predict using a number of other features. In these cases, we might still want to group examples together that look similar or spot ones that look out of the out of the ordinary. You have a full course dedicated to each supervised and unsupervised learning - we will see some examples of each in this module.
+
+
+### Modelling as part of a Pipeline
+
+[TODO: Add pipeline image]
+
+We know that the trained model is just one part of what the data scientist is responsible for. A more complete view is offered in Figure [TODO: REF]. A standard data science pipeline starts with some data being collected, either as part of an existing process or purposefully, say with a survey or an experiment. This data is then pre-processed and a problem is formulated which needs to be addressed using this data set including a choice of target variable. Ideally this would be done before collecting any data in the first place, but the world is a messy place and we do what we can with what is available to us. 
+
+Following this, features are then created (or _engineered_) out of the raw data and several models are trained on the resulting table of features and targets. A performance measure is then used to evaluate the models and to identify the best performing among those considered. If the performance of this best model is considered to be good enough then it is deployed - this could be a one-off use to produce some business insights, or increasingly a continuous use where the model is made available as a service to either other pieces of technology or to human users. 
+
+While in production the model is monitored, or at least should be monitored, so that the data scientists can stay abreast of any changes in model performance or other issues that might arise.
+
+This breakdown of the data science workflow is also to guide our exploration of the ethical risks at each step in the pipeline. 
+
+
+#### Data Collection
+
+For example, at the data collection stage we should be aware of any historical biases that are represented in the data. These biases are likely to bias our model's predictions if not addressed. For example, using historical data to see which employees were promoted rapidly in an organization to influence future hires will likely reproduce any biases present in these promotion practices. Historical data can also be biased in terms of what they do not record. For example it is well known that for certain demographic groups in the United States, access to health care is difficult. This means that the rates of diagnosis of certain diseases in these groups will either be smaller than the real prevalence of the disease or arrive much later in the patient history. This type of selection mechanism can poison all sorts of downstream analysis.
+
+#### Data Pre-processing
+
+After the data have been collected, it typically needs extensive processing to be brought into shape for analysis. This is known as _data pre-processing_ or more recently it falls under the more general moniker of _data engineering_. The stage of the data science process is often dismissed as tedious but mathematically uninteresting work and yet it is in that stage that bias can easily creep in. Consider filling in missing values - this is usually done using off-the-shelf methods without much thought. This usually results in inappropriate techniques being used, like filling in a value with the average of that variable across the other respondents. This would result in overestimating the weight of women in a patient population, as women tend to weigh less than men. Even more challenging situations can arise when a value being missing or not is itself dependent on the value itself. For example, in a survey trying to estimate the prevalence of drug use the people who use drugs may less likely to respond than those who do not. 
+
+#### Formulating Your Research Question
+
+We now come to the problem formulation stage, which is perhaps the most important of all. Einstein famously said "If I had an hour to solve a problem I would spend 55 minutes thinking about the problem and 5 minutes thinking about solutions". Having a clear, correct and answerable question is important for two reasons. Firstly, asking the wrong question can only give you a wrong answer and secondly this step is very hard to revisit later - no model performance metric will ever alert you to having asked the wrong question in the first place. Just like Douglas Adams had said in the Hitchhiker's Guide to the Galaxy, it is much harder to build a computer that can tell you what the right question to ask is than it is to build a computer that answers a question for you.
+
+The skill of defining well-formed research questions is particularly important and problematic in data science because our tools expect our problems to take a specific shape, say that of a classification or a regression. As a result it is tempting to immediately look for ways to convert a real world problem into a prediction task, and to do so in a hurry because your "real work" starts once this has been done. Another temptation is to assume that it is the job of a business person or a domain expert to do that translation and it is their fault if you can't answer their vaguely defined question. 
+In fact forming good research questions can only be done well in a multi-disciplinary fashion. This is because it requires a deep understanding of the domain of application, the business problem, and the modelling approach.
+
+Feature engineering carries similar challenges as problem formulation many domain-specific assumptions can come into all of the little decisions we need to make when we create a feature. For an unstructured or semi-structured data set, feature engineering can be a very manual and time-consuming process but it also gives us a chance to understand the problem domain. On the other hand, modern techniques like end-to-end deep learning give us a chance to completely automate that process using very sophisticated computational approaches to trial and error. This improves the reproducibility and speed of the pipeline, but it does increase the reliance on bias-free data as there's no opportunity to correct or self-reflect in this pipeline
+
+#### Modelling and Inference 
+
+Once the set of predictive features and choice of target variable are all in place, we then usually rely on standard machine learning libraries like scikit-learn in Python to go through a few types of models, say a random forest classifier, an xgboost classifier and a logistic regression. We fit them to the data, assess their performance and we select the best performing one. Both the optimization algorithm used to fit the classifier and our subsequent selection of the best performing one rely on the choice of _performance metric_. This metric is very important, defining what the relative severity of different types of errors. For example, you would likely regard misclassifying a patient with cancer as healthy as a more severe error than the other way around. However, a false alarm also has real costs - both for obvious emotional reasons and also because it will require follow-up tests to confirm the diagnosis, which might not have been necessary had the initial classification been correct. Choosing the right performance metric is half the battle during model selection but here a huge number of checks and balances need to be kept to avoid overfitting and so on.
+
+#### Deployment 
+
+You have now completed your task, the model has been fitted and has say 93% out of sample accuracy. Your job is done, right? Wrong.
+
+For starers, a model has to be documented with the appropriate guard rails to ensure that it is used in the right way. Think back to the example of using our cat-dog classifier to a giraffe. A more serious example might be a smartphone app that predicts the risk of heart failure in the next four weeks given a number of tests or readings. You need to make sure that the app is indeed deployed on the right data and interpreted by users in the right way. 
+
+You must also think about access issues. If you have just built a great solution for a real world problem, what can you do to help make it available to more users? You want your heart failure app to be used by everyone just not just folks with expensive phones. You might think that this is not your job, but once again you can add more value in this conversation than you may think. Are there ways to make the algorithm computationally more efficient, so that it can run on older generation phones? Perhaps that drop in accuracy by switching to a faster algorithm is worth it, if in return the solution is available to many more people and more lives are saved in total.
+
+#### Monitoring 
+
+No one steps in the same river twice said Heraclitus, or as it is sometimes abbreviated "everything changes". Once your model is deployed, you want to make sure you keep tracking its performance -  for example its speed,  as well as a number of other dimensions that we will explore in this course. You wouls like to detect any changes that occur, for example if you tested your algorithm in a group of older patients then you might want to make sure that the same performance applies to your population of actual users, who might be younger. Even if the populations were the same when your solution was put into production, sometimes the world itself changes. The COVID-19 pandemic has really challenged many machine learning models that were built on data collected prior to its beginning. Patterns of human behaviour and interaction have changed and so many models had to be retrained. This effect is known as data set shift. One solution is to monitor the model and trigger reviews whenever there is an indication that something is going wrong.
+
+It is unfortunately easy to find real world examples of all of the above risks going wrong. A recent landmark publication in the highly esteemed journal Science, the authors demonstrated that an algorithm used to manage population health issues used health cost as a proxy for health need. That is, to understand how much care someone suffering with a certain disease requires they looked at how much money their insurer spends on them per year. This proxy is an ingenious idea, to get around a difficult data collection problem the study used anonymised insurance claim data which is often available for millions of patients. However, the study omitted the fact that there are groups of people that do not have access to high quality medical insurance. These people will therefore have less care for the same level of need and a model trained on this data variable will unfortunately perpetuate this historical bias.
+
+### Notes on the term "bias"
+
+It is worth commenting on the use of the word __bias__ in a course. It will be used quite heavily because it has both an ethical meaning, that is discrimination against certain individuals or groups, but it also has a number of different technical meanings in statistics and data science. 
+
+A useful graphic to get us to think about this in a more structured way was presented in a paper by Mitchell et al [TODO: add citation] and is presented also here. 
+
+[TODO: Add Mitchell graphic]
+
+We all have a view of the world as it should be free of discrimination and prejudice, however that differs from the world as it is, and as it has been, due to societal bias and injustices that have taken place in the past. Even the perfect capture of all human activity right now would inherit that bias. Unfortunately the situation is even worse than that. We only observe the world imperfectly with samples that are small or even non-representative, which introduces an additional source of bias that is statistical in nature. This graphic [TODO: ref Fig] is a useful reminder to tease apart the two sources of bias as they each require a different mitigation strategy
+
+### Conclusion
+In this section, we have defined what it is we mean by data science work. We have highlighted how it is important to pay as much emphasis on the pipeline that generates a predictive model as to the predictive model itself. We broke a typical data science pipeline down to multiple stages and explained how each stage poses its own ethical risks, showcasing some examples along the way. 
+
+From here we will return to our discussion of foundations in order to understand what progress has already been made in establishing best practices and regulatory frameworks.
