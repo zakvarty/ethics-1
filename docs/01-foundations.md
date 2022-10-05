@@ -332,3 +332,60 @@ We all have a view of the world as it should be free of discrimination and preju
 In this section, we have defined what it is we mean by data science work. We have highlighted how it is important to pay as much emphasis on the pipeline that generates a predictive model as to the predictive model itself. We broke a typical data science pipeline down to multiple stages and explained how each stage poses its own ethical risks, showcasing some examples along the way. 
 
 From here we will return to our discussion of foundations in order to understand what progress has already been made in establishing best practices and regulatory frameworks.
+
+## Moral Frameworks 
+
+In Section \@ref(do-no-harm), we explained why we need to consider ethical matters as data science professionals. We next reviewed what a typical data science pipeline looks like and gave some examples of the risks that each stage in such a pipeline can pose. 
+
+We will now return to our discussion of moral frameworks. The objective today is to demystify the term "ethical", at least in terms of how it's used in this course. 
+
+### How do we determine ethical behaviour?
+
+Let's first start by reviewing how is it that we shape our moral opinions and attitudes as individuals. Morality sometimes is the result of a thoughtful rational exercise, but in many situations it is an almost instinctive response. It takes some effort to recognize precisely the origins of our moral attitudes because we don't always have the ability to directly introspect them. 
+
+Clearly, the society we live in influences what we think is right and wrong. That being said, societies can themselves often be pluralistic, divided or both. For every division of opinion in a large social group you can probably find a fair amount of shared moral attitudes as well, many of which people have often simply stopped noticing or paying attention to since they are not contented opinions.
+
+In addition to norms and habits, there are philosophical viewpoints that can influence moral attitudes on big topics such as crime and punishment, tradition versus progress, and many others. Our community's special history and its relationship with its surrounding society is also an important source of moral views, along with our self-identity and broader cultural influences. Another clear source of moral attitudes is of course religion. 
+
+Finally, our professional lives can also play a big role in our moral attitudes. This can be especially true in the case of mission-driven professions like doctors, nurses and teachers or in the case of very strong corporate identities like the ones surrounding lifelong careers in a single corporation or more recently certain technology companies. 
+
+What makes this plurality of sources interesting is that, often, they can actually come into conflict. Something you're asked to do at work might for example be contrary to your personal morality or religious beliefs. It might therefore seem like we have a really hard problem in our hands: to be an ethical data scientist do we first need to all agree on the same definition of what it means to be an ethical person? Surely that would take us a few years of study at the very least. As we will see shortly, that's not exactly what is required. 
+
+### Medical Codes of Conduct
+
+Let us consider the example of doctors; they are a professional group that abides by a strict code of conduct, relying on four relatively simple principles:
+
+- non-maleficence,
+- beneficence,
+- equity,
+- autonomy
+
+__Non-maleficence__, the idea that a doctor should "do no harm" we have already encountered. __Beneficence__ is the other side of the same coin, a commitment to only intervene so as to optimize the health and welfare of the patient. The principle of __equity__ reminds us that all patients should have access to equal care, regardless of race ,gender on any other attribute. Finally patient __autonomy__, which includes __privacy__ and medical __confidentiality__ asserts that the patient is the one that decides whether they want to receive treatment and the doctor must support them in this decision, even if they disagree.
+
+There's a couple of things to observe here. First, just four fairly generic and simple to state principles are obviously not enough to tell a doctor what the right thing to do is in any given specific circumstance. This is done on a case-by-case basis through ethics committees and, in particularly thorny cases, debated in bioethics journals. However, the principles offer a robust framework against which any new situation must be analysed. Second, none of these principles mention social or religious considerations. They allow for some flexibility in defining what is good, but not an infinite amount wiggle-room.  Looking specifically at the autonomy principle, this would precluded an authoritarian state from running experiments on their citizens without their consent. This emphasises that professional codes of conduct do not need to be a complete philosophical treaties, written from first principles on the nature of good and evil. Professional codes of conduct are instead a contract of trust between the professional and the society they live within.
+
+If a doctor is responsible to do good but do good to whom and by whom the obvious answer is the patient but is that all there is to it the american medical association's code of medical ethics answers this question for us in the highlighted passage above. Physicians it says, must recognize responsibility to patients first and foremost, as well as to society, to other health professionals, and to themselves. There is a hierarchy of stakeholders with a patient coming first, society at large second, other doctors third and self last. 
+
+To consider a concrete example, a medical doctor is obligated to offer antibiotics to a patient who needs them. The doctor also needs to also keep in mind that over-prescription of antibiotics will, over time, lead to resistance to those drugs, which harms broader public health. There will be borderline cases where, absent that consideration about resistance and public health, the doctor might have prescribed antibiotics to a patient but didn't. These moral dilemmas can be tricky to solve but the important first step is to recognize them by thinking expansively about who might be affected by your work. It is rarely just the user of your product or service; most commonly it is their community, their family, and society at large that are indirectly affected by use of an AI-based service.
+
+
+### Codes of Conduct in Other Professions 
+
+We focused earlier on on the Hippocratic oath but broader professional codes of conduct that can be enforced (and that can incur some kind of penalty when not respected) are a fairly recent development. A pivotal moment in their development were the Nuremberg trials, which prosecuted the cruel, unthinkable human experiments run by the Nazi regime that unfortunately have also occurred under other authoritarian regimes. This trial triggered a need to formulate an explicit code of medical conduct that doctors can swear to and feel loyal to. This can then act as a counterbalance of their loyalty to their employer or government. Although the Nuremberg trials is an absolutely extreme example, the principle that professionals owe allegiance or loyalty to their profession over and above to their loyalty to their employer, government, social group, or religion is absolutely foundational.
+
+Codes of conduct therefore act as a fail-safe. A chartered accountant is obliged to be the first one to report a fraud, even if that means reporting their own employer. A medical doctor must respect patient autonomy, even when in desperate circumstances from the patient's perspective. A chartered statistician cannot misrepresent data, even if the CEO of the start-up they work for asks them to do so. Codes of conduct are nowhere near as enforceable as law but they're broader and they're more agile, which is useful as a means for rapidly evolving technologies to self-regulate.
+
+Here is another example: the Royal Statistical Society's code of conduct specifically asks Fellows of the Society to seek to counter false or misleading statements which are detrimental to statistical science,the profession, or society. In the age of fake news and misinformation, does that oblige a fellow of the RSS to respond to say a Twitter thread that misrepresents data about the pandemic? For example what if your employer has a strict policy against doing something like that; against entering public debates on social media? We do not need to answer these questions now, we just need to recognize that it is important that they get asked.
+
+The picture we are landing on looks as follows. Different professions have their codes of conduct: statisticians, doctors, accountants, and so on. As these folks do their daily work they also have loyalties to their companies, for example a technology or pharmaceutical company, each of which has its own mission. The result is a creative and healthy tension between corporate objectives, including but not limited to profit making ones, and professional ethics. This tension helps the companies to organize themselves in healthy ethical practices. At the same time, professionals have their own personal identity, are influenced by societal norms and by a set of fairly universal moral values such as the right to privacy or to non-discrimination. Within a specific individual exists a similar amount of creative healthy tension with the code of conduct again acting as a fail-safe against the specific beliefs of a given professional, that may be in conflict occasionally with the welfare of the user.
+
+The general medical council in the UK specifically describes what to do if you're a physician who is asked to conduct a procedure that goes against you personal beliefs, morality or religion. The physician in such circumstances must explain to patients if they have a conscientious objection to a particular procedure, they must tell the patient about their right to see another doctor, and make sure they have enough information to exercise that right. In providing this information they may not imply or express disapproval of the patient's lifestyle choices or beliefs. This gives space to the physician to hold individual beliefs while at the same time making sure that a patient is not harmed or misinformed as a result. This again emphasizes the need to seek codes of conduct as contracts of trust that can co-exist with other sources of moral attitudes, rather than as absolutist statements of truth.
+
+
+### Conclusion 
+
+In Section \@ref(do-no-harm) we understood what this course will be about, in this section we have instead covered what it will not about. This course, and ethical AI as a whole, not an attempt to exhaustively establish what is right. This is a question touching upon philosophy, religion, politics, social sciences and history; none of which will be taught in this course. 
+
+We clarified that codes of conduct are obligations that arise if we are to expect the trust of our fellow citizens. We also emphasized, once again, that many modern codes of conduct and pieces of regulation came about after humanitarian disasters. Our ambition and hope is that AI and data science will self-regulate in an effective manner before that happens. Finally, we used examples from the medical profession to illustrate how professional codes of conduct can act as fail-safes against individual, corporate or government misconduct. 
+
+Throughout this course, we have come to the question of principles again and again. A simple set of concepts that create a scaffold against which we can analyse the ethical implications of our work. Finally we have reached the point where we can list our own set of principles and that is what we will do in the following section.  

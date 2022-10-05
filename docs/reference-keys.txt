@@ -33,6 +33,11 @@ deployment
 monitoring
 notes-on-the-term-bias
 conclusion-1
+moral-frameworks
+how-do-we-determine-ethical-behaviour
+medical-codes-of-conduct
+codes-of-conduct-in-other-professions
+conclusion-2
 ch-privacy-and-autonomy
 captioned-figures-and-tables
 ch-fairness
