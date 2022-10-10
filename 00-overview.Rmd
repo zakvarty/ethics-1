@@ -162,7 +162,7 @@ The weekly deadline for your **written submission is Wednesday at 23:59
 |            | content        |            |            |            |
 |            | alongside      |            |            |            |
 |            | its            |            |            |            |
-|            | implementation |          |            |            |
+|            | implementation |            |            |            |
 |            | and            |            |            |            |
 |            | limitations    |            |            |            |
 |            | when used in   |            |            |            |
