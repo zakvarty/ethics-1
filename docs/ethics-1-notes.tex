@@ -117,7 +117,7 @@
 
 \title{MLDS Ethics - Part 1}
 \author{Zak Varty}
-\date{2022-10-05}
+\date{2022-10-10}
 
 \usepackage{amsthm}
 \newtheorem{theorem}{Theorem}[chapter]
@@ -147,49 +147,6 @@
 \chapter*{Welcome!}\label{welcome}}
 \addcontentsline{toc}{chapter}{Welcome!}
 
-Data-driven decision making is now pervasive and impacts us all. Your data is used by others to make decisions about who you are, how you will behave, and what options should be made available to you. Predictive models are used to decide anything from the promotion that is offered to you by a retailer through to whether your loan application is granted by a bank.
-
-The ways in which these predictive models can fail \emph{mathematically} form a core part of the training for an aspiring statistician, data scientist or machine learning practitioner. In contrast, the potential for \emph{ethical} failures in these same models is rarely covered in-depth during as part of this initial training. As a result, these ethical modes of failure are often not considered until those predictive models have been put into production and are actively causing harm.
-
-To prevent this harm, the ethical impacts of using data to make decisions must be made core to the curriculum of both statistics and data science. This course aims to address that gap.
-
-The course takes a practical and technical approach to identifying these ethical issues. It has a strong mathematical focus and will not not require the authoring of extended essays or moral treaties. Throughout the course, we give actionable ways in which these topics may be integrated into a data science workflow at a range of levels.
-
-\hypertarget{module-description}{%
-\section*{Module Description}\label{module-description}}
-\addcontentsline{toc}{section}{Module Description}
-
-This module will investigate the ethical implications of the new capabilities offered by Data Science and Artificial Intelligence.
-
-Part 1 will begin by discussing the ethical use of data itself - the raw materials of data science pipelines. It will then discuss sets of principles that tech leaders and international bodies are adopting to promote ethical use of data science and artificial intelligence algorithms, including a discussion of real-world examples of failings and adverse outcomes.
-
-Parts 2 and 3 will then revisit the issues explored in Part 1 in greater technical detail. These parts will introduce data science methodologies that provide novel solutions to ethical problems of old such as explainability, prejudice and bias.
-
-\hypertarget{learning-objectives}{%
-\section*{Learning Objectives}\label{learning-objectives}}
-\addcontentsline{toc}{section}{Learning Objectives}
-
-On successful completion of this module, you should be able to:
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  Recognise and accept responsibility for the societal impact of data science and machine learning technologies;
-\item
-  Participate in the broader debate about the issues surrounding the use of data science and machine learning for prediction, decision making and knowledge generation tasks;
-\item
-  Identify common ethical pitfalls of data science and ML algorithms via a mental ``check-list'' and evaluate the degree to which a given algorithm is likely to conform with ethical best practices;
-\item
-  Formally test for common ethical pitfalls of data science and ML algorithms;
-\item
-  Implement mitigation measures against the ethical risks posed by the use of data science and ML algorithms;
-\item
-  Construct well-founded and evidence-based arguments with which to positively influence the actions of stakeholders and decision-makers;
-\item
-  Use a systems perspective to holistically appraise data science projects on their ethical and societal impacts.
-\end{enumerate}
-
 \hypertarget{contributors}{%
 \section*{Contributors}\label{contributors}}
 \addcontentsline{toc}{section}{Contributors}
@@ -205,25 +162,150 @@ These course notes were written by Zak Varty and are still under active developm
 This section is only relevant to students taking the MLDS course in the
 academic year 2022-23.
 
-\hypertarget{assessments}{%
-\section{Assessments}\label{assessments}}
+\hypertarget{welcome-1}{%
+\section{Welcome!}\label{welcome-1}}
+
+Data-driven decision making is now pervasive and impacts us all. Your
+data is used by others to make decisions about who you are, how you will
+behave, and what options should be made available to you. Predictive
+models are used to decide anything from the promotion that is offered to
+you by a retailer through to whether your loan application is granted by
+a bank.
+
+The ways in which these predictive models can fail mathematically form a
+core part of the training for an aspiring statistician, data scientist
+or machine learning practitioner. In contrast, the potential for ethical
+failures in these same models is rarely covered in-depth during as part
+of this initial training. As a result, these ethical modes of failure
+are often not considered until those predictive models have been put
+into production and are actively causing harm.
+
+To prevent this harm, the ethical impacts of using data to make
+decisions must be made core to the curriculum of both statistics and
+data science. This course aims to address that gap.
+
+The course takes a practical and technical approach to identifying these
+ethical issues. It has a strong mathematical focus and will not not
+require the authoring of extended essays or moral treaties. Throughout
+the course, you will discover actionable ways in which these topics may
+be integrated into a data science workflow at a range of levels.
+
+\hypertarget{module-description}{%
+\section{Module Description}\label{module-description}}
+
+This module will investigate the ethical implications of the new
+capabilities offered by Data Science and Artificial Intelligence.
+
+\textbf{Part 1} will begin by discussing the ethical use of data itself - the
+raw materials of data science pipelines. It will then discuss sets of
+principles that tech leaders and international bodies are adopting to
+promote ethical use of data science and artificial intelligence
+algorithms, including a discussion of real-world examples of failings
+and adverse outcomes.
+
+\textbf{Parts 2 and 3} will then revisit the issues explored in Part 1 in
+greater technical detail. These parts will introduce data science
+methodologies that provide novel solutions to ethical problems of old
+such as explainability, prejudice and bias.
+
+\hypertarget{learning-objectives}{%
+\section{Learning Objectives}\label{learning-objectives}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Recognise and accept responsibility for the societal impact of data
+  science and machine learning technologies;
+\item
+  Participate in the broader debate about the issues surrounding the
+  use of data science and machine learning for prediction, decision
+  making and knowledge generation tasks;
+\item
+  Identify common ethical pitfalls of data science and ML algorithms
+  via a mental ``check-list'' and evaluate the degree to which a given
+  algorithm is likely to conform with ethical best practices.
+\item
+  Formally test for common ethical pitfalls of data science and ML
+  algorithms;
+\item
+  Implement mitigation measures against the ethical risks posed by the
+  use of data science and ML algorithms;
+\item
+  Construct well-founded and evidence-based arguments with which to
+  positively influence the actions of stakeholders and
+  decision-makers;
+\item
+  Take a systems perspective to holistically appraise data science
+  projects on their ethical and societal impacts.
+\end{enumerate}
+
+\hypertarget{live-sessions-and-office-hours}{%
+\section{Live Sessions and Office Hours}\label{live-sessions-and-office-hours}}
+
+During the course we will have up to two hours of contact time per week:
+a weekly office hour and a fortnightly live session. These sessions will
+alternate between 9am and 4pm on Fridays each week.
+
+\textbf{Live sessions} will mainly consist of guided group discussions to
+further explore the topics covered each week. These sessions will be
+recorded so that you may review them later in the course or if you
+cannot attend due to time zone issues. Each live session will also have
+some time allocated for questions on course material. These questions
+can either be asked live or via the EdStem discussion forum.
+
+\textbf{Office hours} are a more informal session dedicated entirely to
+answering your questions and will not be recorded. These will by default
+be a group session of up to 40 minutes. This allows you to benefit from
+the questions asked by other students as well as your own. The final 20
+minutes of each session will be reserved for 1-1 discussions. To arrange
+such a meeting, please contact the course lecturer by email at least 1
+hour before the office hour begins. If no 1-1 meetings are arranged then
+this time may be used at the lecturer's discretion to extend the group
+discussion.
+
+\hypertarget{assessment}{%
+\section{Assessment}\label{assessment}}
+
+Ethics Part 1 accounts for 20\% of your overall grade for this module.
+Ethics Part 2 and Ethics Part 3 each account for 40\% of your overall
+grade.
+
+For Ethics Part 1, there will be two assessed elements: weekly
+peer-reviewed written summaries of your assigned reading and one
+summative assessment.\\
+You will have the opportunity to submit up to 6 reading summaries. These
+will be peer-marked with these marks moderated by the course lecturer
+and/or graduate teaching assistants. Your mark will be calculated as the
+average of your 5 highest scoring submissions. In particular, this means
+that you can miss one submission without any consequence.
+
+\textbf{Note:} each reading summary requires you to write your own summary
+and to provide feedback to other students.
+
+The weekly deadline for your \textbf{written submission is Wednesday at 23:59
+(UK)} and the weekly deadline for the peer-feedback is \textbf{Thursday at
+23:59 (UK)}.
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1528}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.3889}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1528}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1528}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1528}}@{}}
-\caption{Assessment schedule for Ethics Part 1 (2022 Cohort)}\tabularnewline
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1806}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2361}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1806}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1806}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1806}}@{}}
+\caption{Ethics 1 Assessment Components}\tabularnewline
 \toprule()
 \begin{minipage}[b]{\linewidth}\raggedright
-Assessment Type
+Assessment
+type
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 Description
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-\% of Ethics Module
+\% of
+Ethics
+Module
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Release Date
+Release
+Date
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 Due Date
 \end{minipage} \\
@@ -231,85 +313,92 @@ Due Date
 \endfirsthead
 \toprule()
 \begin{minipage}[b]{\linewidth}\raggedright
-Assessment Type
+Assessment
+type
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 Description
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-\% of Ethics Module
+\% of
+Ethics
+Module
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Release Date
+Release
+Date
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 Due Date
 \end{minipage} \\
 \midrule()
 \endhead
-Reading Summaries & Weekly summary of one assigned reading and peer-feedback for two other students. & 5 & TBC & TBC \\
-Coursework & Individual short report. This will involve a mixture of questions and guided case-studies to assess technical understanding of the course content alongside its implementation and limitations when used in context. & 15 & TBC & TBC \\
+Reading
+Summaries & Weekly
+summary of
+one
+assigned
+reading
+and
+provision
+of
+peer-feedback
+for two
+other
+students. & 5 & \textbf{Weekly,
+Friday
+09:00
+(UK)} & \textbf{Following
+Thursday
+23:59 (UK)
+} \\
+coursework & Individual
+short
+report.
+This will
+involve a
+mixture of
+worksheet
+style
+questions
+and a
+guided
+case-study
+to assess
+technical
+understanding
+of the
+course
+content
+alongside
+its
+implementation
+and
+limitations
+when used in
+context. & \begin{minipage}[t]{\linewidth}\raggedright
+15
+
+\begin{verbatim}
+     |
+\end{verbatim}
+\end{minipage} & \begin{minipage}[t]{\linewidth}\raggedright
+\textbf{Friday
+25 Nov
+2022,
+09:00
+(UK)}
+
+{[}Week 8{]}
+
+\begin{verbatim}
+     |
+\end{verbatim}
+\end{minipage} & \textbf{Monday
+05 Dec
+2022,
+23:59
+(UK)}
+
+{[}Week 11{]} \\
 \bottomrule()
 \end{longtable}
-
-\hypertarget{reading-summaries}{%
-\section{Reading summaries}\label{reading-summaries}}
-
-There are a wide range of areas in which the use of AI has lead to harm
-for an individual or a section of society. In lectures we heard of an
-example of individual harm, through the advertisement of maternity
-products to a woman who has miscarried. We also heard an example of
-group harm, through pre-trial assessments that incorrectly predicted
-that Black defendants were high risk individuals. For this assessed
-question you will consider another example in which the use of AI has
-caused harm.
-
-A rhetorical precis is a short summary and analysis of a piece of
-writing, which considers both the content and the delivery of the piece.
-A rhetorical precis includes an accurate bibliographic reference to the
-text, a list of keywords relating to the text, and a highly structured
-four-sentence paragraph which serves to summarise and analyse the text.
-Each sentence has a specific role:
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  The first sentence establishes the aim or thesis or the work;
-\item
-  The second sentence explains how this aim is addressed or outlines
-  supporting arguments;
-\item
-  The third sentence states the purpose of the work (why it is
-  important);
-\item
-  The final sentence describes the intended audience and tone of the
-  writing.
-\end{enumerate}
-
-An example of a rhetorical precis can be found on the \href{https://courses.lumenlearning.com/englishcomp2kscopex92x2/chapter/rhetorical-precis/}{lumenlearning
-website}.
-Creating such summaries of a paper promotes clarity and precision both
-when reading and writing. It also provides a useful aid when trying to
-recall the contents of a paper long after you originally read it.
-
-Select and read an academic article that is \emph{not on the course reading
-list} and \emph{either\}}highlights one harmful instance of AI \emph{or} summarises
-the potential harms of AI more generally. Write a rhetorical precis for
-your selected paper, and submit this for assessment. (Note: using a text
-from the course materials or reading list will result in a 50\% reduction
-in the marks awarded for this question.)
-
-\begin{itemize}
-\item
-  Accurate bibliographic reference and keywords {[}1{]}
-\item
-  Aim or thesis sentence {[}2{]}
-\item
-  How aim is addressed / thesis argued {[}2{]}
-\item
-  Purpose or importance of this work {[}2{]}
-\item
-  Identified target audience {[}2{]}
-\item
-  Selection of a paper not included in course reading list {[}1{]}.
-\end{itemize}
 
 \hypertarget{ch-foundations}{%
 \chapter{Foundations of Ethical AI}\label{ch-foundations}}
@@ -1033,7 +1122,7 @@ This version of the book was built with:
 #>  collate  en_GB.UTF-8
 #>  ctype    en_GB.UTF-8
 #>  tz       Europe/London
-#>  date     2022-10-05
+#>  date     2022-10-10
 #>  pandoc   2.18 @ /Applications/RStudio.app/Contents/MacOS/quarto/bin/tools/ (via rmarkdown)
 \end{verbatim}
 

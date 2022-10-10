@@ -1,8 +1,11 @@
 fig:nice-fig
 tab:nice-tab
 eq:binom
-assessments
-reading-summaries
+welcome-1
+module-description
+learning-objectives
+live-sessions-and-office-hours
+assessment
 ch-foundations
 do-no-harm
 ai-for-good

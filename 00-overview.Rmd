@@ -9,62 +9,164 @@ editor_options:
 This section is only relevant to students taking the MLDS course in the
 academic year 2022-23.
 
-## Assessments
+## Welcome!
 
-| Assessment Type   | Description                                                                                                                                                                                                          | \% of Ethics Module | Release Date | Due Date |
-|-----------|----------------------------|-----------|-----------|-----------|
-| Reading Summaries | Weekly summary of one assigned reading and peer-feedback for two other students.                                                                                                                                     | 5                   | TBC          | TBC      |
-| Coursework        | Individual short report. This will involve a mixture of questions and guided case-studies to assess technical understanding of the course content alongside its implementation and limitations when used in context. | 15                  | TBC          | TBC      |
+Data-driven decision making is now pervasive and impacts us all. Your
+data is used by others to make decisions about who you are, how you will
+behave, and what options should be made available to you. Predictive
+models are used to decide anything from the promotion that is offered to
+you by a retailer through to whether your loan application is granted by
+a bank.
 
-: Assessment schedule for Ethics Part 1 (2022 Cohort)
+The ways in which these predictive models can fail mathematically form a
+core part of the training for an aspiring statistician, data scientist
+or machine learning practitioner. In contrast, the potential for ethical
+failures in these same models is rarely covered in-depth during as part
+of this initial training. As a result, these ethical modes of failure
+are often not considered until those predictive models have been put
+into production and are actively causing harm.
 
-## Reading summaries
+To prevent this harm, the ethical impacts of using data to make
+decisions must be made core to the curriculum of both statistics and
+data science. This course aims to address that gap.
 
-There are a wide range of areas in which the use of AI has lead to harm
-for an individual or a section of society. In lectures we heard of an
-example of individual harm, through the advertisement of maternity
-products to a woman who has miscarried. We also heard an example of
-group harm, through pre-trial assessments that incorrectly predicted
-that Black defendants were high risk individuals. For this assessed
-question you will consider another example in which the use of AI has
-caused harm.
+The course takes a practical and technical approach to identifying these
+ethical issues. It has a strong mathematical focus and will not not
+require the authoring of extended essays or moral treaties. Throughout
+the course, you will discover actionable ways in which these topics may
+be integrated into a data science workflow at a range of levels.
 
-A rhetorical precis is a short summary and analysis of a piece of
-writing, which considers both the content and the delivery of the piece.
-A rhetorical precis includes an accurate bibliographic reference to the
-text, a list of keywords relating to the text, and a highly structured
-four-sentence paragraph which serves to summarise and analyse the text.
-Each sentence has a specific role:
+## Module Description
 
-1.  The first sentence establishes the aim or thesis or the work;
-2.  The second sentence explains how this aim is addressed or outlines
-    supporting arguments;
-3.  The third sentence states the purpose of the work (why it is
-    important);
-4.  The final sentence describes the intended audience and tone of the
-    writing.
+This module will investigate the ethical implications of the new
+capabilities offered by Data Science and Artificial Intelligence.
 
-An example of a rhetorical precis can be found on the [lumenlearning
-website](https://courses.lumenlearning.com/englishcomp2kscopex92x2/chapter/rhetorical-precis/ "Lumen Learning Website").
-Creating such summaries of a paper promotes clarity and precision both
-when reading and writing. It also provides a useful aid when trying to
-recall the contents of a paper long after you originally read it.
+**Part 1** will begin by discussing the ethical use of data itself - the
+raw materials of data science pipelines. It will then discuss sets of
+principles that tech leaders and international bodies are adopting to
+promote ethical use of data science and artificial intelligence
+algorithms, including a discussion of real-world examples of failings
+and adverse outcomes.
 
-Select and read an academic article that is *not on the course reading
-list* and *either}*highlights one harmful instance of AI *or* summarises
-the potential harms of AI more generally. Write a rhetorical precis for
-your selected paper, and submit this for assessment. (Note: using a text
-from the course materials or reading list will result in a 50% reduction
-in the marks awarded for this question.)
+**Parts 2 and 3** will then revisit the issues explored in Part 1 in
+greater technical detail. These parts will introduce data science
+methodologies that provide novel solutions to ethical problems of old
+such as explainability, prejudice and bias.
 
--   Accurate bibliographic reference and keywords [1]
+## Learning Objectives
 
--   Aim or thesis sentence [2]
+1.  Recognise and accept responsibility for the societal impact of data
+    science and machine learning technologies;
 
--   How aim is addressed / thesis argued [2]
+2.  Participate in the broader debate about the issues surrounding the
+    use of data science and machine learning for prediction, decision
+    making and knowledge generation tasks;
 
--   Purpose or importance of this work [2]
+3.  Identify common ethical pitfalls of data science and ML algorithms
+    via a mental "check-list" and evaluate the degree to which a given
+    algorithm is likely to conform with ethical best practices.
 
--   Identified target audience [2]
+4.  Formally test for common ethical pitfalls of data science and ML
+    algorithms;
 
--   Selection of a paper not included in course reading list [1].
+5.  Implement mitigation measures against the ethical risks posed by the
+    use of data science and ML algorithms;
+
+6.  Construct well-founded and evidence-based arguments with which to
+    positively influence the actions of stakeholders and
+    decision-makers;
+
+7.  Take a systems perspective to holistically appraise data science
+    projects on their ethical and societal impacts.
+
+## Live Sessions and Office Hours
+
+During the course we will have up to two hours of contact time per week:
+a weekly office hour and a fortnightly live session. These sessions will
+alternate between 9am and 4pm on Fridays each week.
+
+**Live sessions** will mainly consist of guided group discussions to
+further explore the topics covered each week. These sessions will be
+recorded so that you may review them later in the course or if you
+cannot attend due to time zone issues. Each live session will also have
+some time allocated for questions on course material. These questions
+can either be asked live or via the EdStem discussion forum.
+
+**Office hours** are a more informal session dedicated entirely to
+answering your questions and will not be recorded. These will by default
+be a group session of up to 40 minutes. This allows you to benefit from
+the questions asked by other students as well as your own. The final 20
+minutes of each session will be reserved for 1-1 discussions. To arrange
+such a meeting, please contact the course lecturer by email at least 1
+hour before the office hour begins. If no 1-1 meetings are arranged then
+this time may be used at the lecturer's discretion to extend the group
+discussion.
+
+## Assessment
+
+Ethics Part 1 accounts for 20% of your overall grade for this module.
+Ethics Part 2 and Ethics Part 3 each account for 40% of your overall
+grade.
+
+For Ethics Part 1, there will be two assessed elements: weekly
+peer-reviewed written summaries of your assigned reading and one
+summative assessment.\
+You will have the opportunity to submit up to 6 reading summaries. These
+will be peer-marked with these marks moderated by the course lecturer
+and/or graduate teaching assistants. Your mark will be calculated as the
+average of your 5 highest scoring submissions. In particular, this means
+that you can miss one submission without any consequence.
+
+**Note:** each reading summary requires you to write your own summary
+and to provide feedback to other students.
+
+The weekly deadline for your **written submission is Wednesday at 23:59
+(UK)** and the weekly deadline for the peer-feedback is **Thursday at
+23:59 (UK)**.
+
++------------+----------------+------------+------------+------------+
+| Assessment | Description    | \% of      | Release    | Due Date   |
+| type       |                | Ethics     | Date       |            |
+|            |                | Module     |            |            |
++============+================+============+============+============+
+| Reading    | Weekly         | 5          | **Weekly,  | **Following|
+| Summaries  | summary of     |            | Friday     | Thursday   |
+|            | one            |            | 09:00      | 23:59 (UK) |
+|            | assigned       |            | (UK)**     | **         |
+|            | reading        |            |            |            |
+|            | and            |            |            |            |
+|            | provision      |            |            |            |
+|            | of             |            |            |            |
+|            | peer-feedback  |            |            |            |
+|            | for two        |            |            |            |
+|            | other          |            |            |            |
+|            | students.      |            |            |            |
++------------+----------------+------------+------------+------------+
+| coursework | Individual     | 15         | **Friday   | **Monday   |
+|            | short          |            | 25 Nov     | 05 Dec     |
+|            | report.        |            | 2022,      | 2022,      |
+|            | This will      |            | 09:00      | 23:59      |
+|            | involve a      |            | (UK)**     | (UK)**     |
+|            | mixture of     |            |            |            |
+|            | worksheet      |            | [Week 8]   | [Week 11]  |
+|            | style          |            |            |            |
+|            | questions      |            |            |            |
+|            | and a          |            |            |            |
+|            | guided         |            |            |            |
+|            | case-study     |            |            |            |
+|            | to assess      |            |            |            |
+|            | technical      |            |            |            |
+|            | understanding  |            |            |            |
+|            | of the         |            |            |            |
+|            | course         |            |            |            |
+|            | content        |            |            |            |
+|            | alongside      |            |            |            |
+|            | its            |            |            |            |
+|            | implementation |          |            |            |
+|            | and            |            |            |            |
+|            | limitations    |            |            |            |
+|            | when used in   |            |            |            |
+|            | context.       |            |            |            |
++------------+----------------+------------+------------+------------+
+
+: Ethics 1 Assessment Components
